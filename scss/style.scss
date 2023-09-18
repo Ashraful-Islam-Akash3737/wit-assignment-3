@@ -13,12 +13,13 @@ header {
     nav {
         display: flex;
         justify-content: space-between;
-       
+        border-top: 2px double black;
+        border-bottom: 2px dotted black;
 
         .nav-logo-container {
             display: flex;
-           
-            h1{
+
+            h1 {
                 font-size: 3rem;
                 font-weight: 700;
                 color: #131313;
@@ -30,6 +31,8 @@ header {
         ul {
 
             display: flex;
+            align-items: center;
+
             li {
                 list-style-type: none;
                 margin-right: 30px;
@@ -38,17 +41,54 @@ header {
 
                 a {
                     text-decoration: none;
+                    font-size: 1rem;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid black;
+                    border-top: 1px solid black;
+                    padding: 10px 5px;
+                    border-radius: 8px;
+                    color: #000;
                 }
 
-                .home {}
+                .home {
+                    text-decoration: none;
+                    font-size: 1rem;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid black;
+                    padding: 10px 5px;
+                    border-radius: 8px;
+                    color: white;
+                    background-color: #000;
+                }
 
 
 
-                a:hover {}
+                a:hover {
+                    text-decoration: none;
+                    font-size: 1rem;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid black;
+                    padding: 10px 5px;
+                    border-radius: 8px;
+                    color: white;
+                    background-color: #000;
+                }
             }
         }
 
+        .nav-logo-icon {
+            display: flex;
+            align-items: center;
+            padding: 20px 0px;
 
+            i {
+                font-size: 2rem;
+                padding: 5px 20px;
+            }
+        }
 
 
 
@@ -62,21 +102,117 @@ header {
 /* media query for mobile or small device started  */
 
 @media screen and (max-width:576px) {
-    header{
+    header {
         padding: 20px 5px;
-        nav{
+
+        nav {
             flex-direction: column;
-           
+
+            .nav-logo-container {
+                justify-content: center;
+                align-items: center;
+            }
+
+            ul {
+
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+
+                li {
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 0px;
+
+                    a {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+
+                    .home {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+
+                    a:hover {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+                }
+
+            }
         }
+
+        .nav-logo-icon {
+            justify-content: center;
+        }
+
     }
 }
 
 
-/* media query for tablet or medium device started
 
-@media screen and (min-width:576px) and (max-width:992px) {}
+/* media query for tablet or medium device started*/
 
+@media screen and (min-width:576px) and (max-width:992px) {
+    header {
+        padding: 20px 10px;
 
+        nav {
+            flex-direction: column;
+
+            .nav-logo-container {
+                justify-content: center;
+                align-items: center;
+            }
+
+            ul {
+
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+
+                li {
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 0px;
+
+                    a {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                        font-size: 1.2rem;
+                    }
+
+                }
+            }
+
+            .nav-logo-icon {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+/* media query for large device started*/
 @media screen and (min-width:992px) and (max-width:1400px) {
+    nav {
+        justify-content: space-evenly;
 
-}*/
+        ul {
+
+            justify-content: space-around;
+            align-items: center;
+
+
+            li {
+                justify-content: center;
+                align-items: center;
+
+                a {
+                    font-size: 1.5rem;
+                }
+
+            }
+        }
+    }
+}
