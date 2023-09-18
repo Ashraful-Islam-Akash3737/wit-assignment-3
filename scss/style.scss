@@ -108,27 +108,29 @@ main {
 
     .hero-container {
         display: flex;
+
         img {
             width: 120%;
         }
+
         .hero-content {
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
             padding-left: 80px;
-            
+
             h1 {
                 text-align: center;
                 font-size: 2rem;
                 font-weight: 900;
             }
-    
+
             p {
                 font-size: 1.3rem;
                 font-weight: 500;
             }
-    
+
             .btn-primary {
                 font-size: 2rem;
                 padding: 10px 25px;
@@ -139,7 +141,8 @@ main {
                 font-weight: 700;
                 text-transform: capitalize;
             }
-            .btn-primary:hover{
+
+            .btn-primary:hover {
                 font-size: 2rem;
                 padding: 10px 25px;
                 border: 2px solid black;
@@ -152,7 +155,8 @@ main {
         }
     }
 
-    
+    /* hero section end  */
+
 }
 
 /* media query started  */
@@ -211,6 +215,7 @@ main {
 
         .hero-container {
             flex-direction: column;
+
             img {
                 width: 100%;
                 height: 300px;
@@ -222,6 +227,7 @@ main {
                 flex-direction: column;
                 justify-content: center;
                 padding-left: 0px;
+
                 h1 {
                     text-align: center;
                     font-size: 2rem;
@@ -245,6 +251,7 @@ main {
             }
         }
 
+        /* hero section end  */
     }
 }
 
@@ -295,9 +302,10 @@ main {
 
         .hero-container {
             flex-direction: column;
+
             img {
                 width: 100%;
-                
+                height: 450px;
             }
 
             .hero-content {
@@ -305,8 +313,9 @@ main {
                 align-items: center;
                 flex-direction: column;
                 justify-content: center;
-                
+
                 padding-left: 0px;
+
                 h1 {
                     text-align: center;
                     font-size: 2.5rem;
@@ -330,6 +339,7 @@ main {
             }
         }
 
+        /* hero section end  */
     }
 }
 
@@ -356,33 +366,36 @@ main {
             }
         }
     }
+
     main {
         padding: 30px 25px;
         /* hero section start  */
-    
+
         .hero-container {
             display: flex;
+
             img {
                 width: 120%;
             }
+
             .hero-content {
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 justify-content: center;
-                
-                
+
+
                 h1 {
                     text-align: center;
                     font-size: 2rem;
                     font-weight: 900;
                 }
-        
+
                 p {
                     font-size: 1.3rem;
                     font-weight: 500;
                 }
-        
+
                 .btn-primary {
                     font-size: 2rem;
                     padding: 10px 25px;
@@ -393,7 +406,8 @@ main {
                     font-weight: 700;
                     text-transform: capitalize;
                 }
-                .btn-primary:hover{
+
+                .btn-primary:hover {
                     font-size: 2rem;
                     padding: 10px 25px;
                     border: 2px solid black;
@@ -405,8 +419,8 @@ main {
                 }
             }
         }
-    
-        
+
+        /* hero section end  */
     }
 }
 
@@ -433,33 +447,36 @@ main {
             }
         }
     }
+
     main {
         padding: 30px 75px;
         /* hero section start  */
-    
+
         .hero-container {
             display: flex;
+
             img {
                 width: 100%;
             }
+
             .hero-content {
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 justify-content: center;
-                
-                
+
+
                 h1 {
                     text-align: center;
                     font-size: 2rem;
                     font-weight: 900;
                 }
-        
+
                 p {
                     font-size: 1.3rem;
                     font-weight: 500;
                 }
-        
+
                 .btn-primary {
                     font-size: 2rem;
                     padding: 10px 25px;
@@ -470,7 +487,8 @@ main {
                     font-weight: 700;
                     text-transform: capitalize;
                 }
-                .btn-primary:hover{
+
+                .btn-primary:hover {
                     font-size: 2rem;
                     padding: 10px 25px;
                     border: 2px solid black;
@@ -482,7 +500,8 @@ main {
                 }
             }
         }
-    
-        
+
+        /* hero section end  */
+
     }
 }
