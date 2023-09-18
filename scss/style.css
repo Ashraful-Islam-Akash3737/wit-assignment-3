@@ -1,78 +1,53 @@
 * {
-  padding: 0;
+  padding: 0px;
   font-family: Montserrat;
 }
 
+/* header section started   */
 header {
   background-color: white;
   padding: 30px 75px;
 }
-
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-top: 2px solid black;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 2px dashed black;
 }
-nav .nav-logo-container {
+header nav .nav-logo-container {
   display: flex;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: 400;
 }
-nav .nav-menubar-container ul {
+header nav .nav-logo-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
+}
+header nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-nav .nav-menubar-container ul li {
+header nav ul li {
   list-style-type: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
 }
-nav .nav-menubar-container ul li a {
-  color: white;
+header nav ul li a {
   text-decoration: none;
-  margin: 0 10px;
-  padding: 10px 12px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.5rem;
-  border-bottom: 2px solid black;
-  background-color: black;
-  border-radius: 8px;
 }
-nav .nav-menubar-container ul li .home {
-  border-bottom: 2px solid black;
-  color: black;
-  font-size: 1.5rem;
-  background-color: white;
-  padding: 10px 12px;
-  font-weight: 500;
-  margin: 0 10px;
-  border-radius: 8px;
+/* header section ended  */
+/* media query started  */
+/* media query for mobile or small device started  */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px 5px;
+  }
+  header nav {
+    flex-direction: column;
+  }
 }
-nav .nav-menubar-container ul li a:hover {
-  color: black;
-  text-decoration: none;
-  margin: 0 10px;
-  padding: 10px 12px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.5rem;
-  background-color: white;
-  border-bottom: 2px solid black;
-  border-radius: 8px;
-}
-nav .nav-icon-container {
-  display: flex;
-  align-items: center;
-  display: flex;
-  padding: 12px 10px;
-  align-items: flex-start;
-  gap: 38px;
-}
-nav .nav-icon-container i {
-  font-size: 1.5rem;
-}/*# sourceMappingURL=style.css.map */
+/* media query for tablet or medium device started
+
+@media screen and (min-width:576px) and (max-width:992px) {}
+
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+
+}*//*# sourceMappingURL=style.css.map */

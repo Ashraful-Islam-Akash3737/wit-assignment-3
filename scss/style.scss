@@ -1,96 +1,82 @@
 * {
-    padding: 0;
+    padding: 0px;
     font-family: Montserrat;
 }
 
+/* header section started   */
 header {
     background-color: white;
     padding: 30px 75px;
 
-}
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 2px  solid black;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 2px  dashed black;
 
-    .nav-logo-container {
+    nav {
         display: flex;
-        align-items: center;
-        font-size: 2rem;
-        font-weight: 400;
-    }
+        justify-content: space-between;
+       
 
-    .nav-menubar-container {
-        ul {
+        .nav-logo-container {
             display: flex;
+           
+            h1{
+                font-size: 3rem;
+                font-weight: 700;
+                color: #131313;
+            }
 
-            justify-content: center;
-            align-items: center;
 
+        }
 
+        ul {
+
+            display: flex;
             li {
                 list-style-type: none;
-
+                margin-right: 30px;
+                font-weight: 500;
+                font-size: 1rem;
 
                 a {
-                    color:white;
                     text-decoration: none;
-                    margin: 0 10px;
-                    padding: 10px 12px;
-                    text-transform: uppercase;
-                    font-weight: 500;
-                    font-size: 1.5rem;
-                    border-bottom: 2px solid black;
-                    background-color: black;
-                    border-radius: 8px;
-
                 }
 
-                .home {
-                    border-bottom: 2px solid black;
-                    color: black;
-                    font-size: 1.5rem;
-                    background-color: white;
-                    padding: 10px 12px;
-                    font-weight: 500;
-                    margin: 0 10px;
-                    border-radius: 8px;
-                }
+                .home {}
 
 
 
-                a:hover {
-                    color: black;
-                    text-decoration:none;
-                    margin: 0 10px;
-                    padding: 10px 12px;
-                    text-transform: uppercase;
-                    font-weight: 500;
-                    font-size: 1.5rem;
-                    background-color: white;
-                    border-bottom: 2px solid black;
-                    border-radius: 8px;
-                }
+                a:hover {}
             }
         }
+
+
+
+
+
     }
+}
 
-    .nav-icon-container {
-        display: flex;
-        align-items: center;
-        display: flex;
-        padding: 12px 10px;
-        align-items: flex-start;
-        gap: 38px;
+/* header section ended  */
 
-        i {
-            font-size: 1.5rem;
+/* media query started  */
+
+/* media query for mobile or small device started  */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px 5px;
+        nav{
+            flex-direction: column;
+           
         }
     }
-
 }
+
+
+/* media query for tablet or medium device started
+
+@media screen and (min-width:576px) and (max-width:992px) {}
+
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+
+}*/
