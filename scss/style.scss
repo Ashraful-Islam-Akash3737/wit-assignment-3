@@ -184,7 +184,7 @@ main {
             background-color: white;
             color: black;
             font-weight: 700;
-            text-transform: capitalize;
+            text-transform: uppercase;
         }
 
         .btn-primary:hover {
@@ -198,9 +198,69 @@ main {
             transition: all 2s ease-in-out 0.1s;
         }
     }
+
+    /* our-service section end */
+
+    /* our-collections section start  */
+
+    .our-collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: capitalize;
+        }
+
+        .our-card-collection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .card-collection {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .card-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                padding-top: 5px;
+                padding-right: 5px;
+                padding-left: 5px;
+                margin-bottom: 20px;
+
+                img {
+                    width: 360px;
+                    height: 360px;
+                }
+
+                h3 {
+                    text-transform: uppercase;
+                    color: #282828;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 1rem;
+                    font-weight: 500;
+
+                }
+            }
+        }
+    }
 }
 
-/* our-service section end */
+
 
 
 
@@ -258,7 +318,7 @@ main {
     }
 
     main {
-       
+
 
         .hero-container {
             flex-direction: column;
@@ -298,7 +358,7 @@ main {
             }
         }
 
-       
+
         .our-service {
             margin-top: 30px;
             display: inline-flex;
@@ -307,23 +367,25 @@ main {
             align-items: center;
             gap: 40px;
             background-color: #F4F4F4;
-    
+
             .service-name {
                 display: flex;
                 flex-direction: column;
                 padding: 8px;
                 align-items: center;
                 gap: 35px;
-                h3{
-                    font-size:1.5rem ;
-                    i{
+
+                h3 {
+                    font-size: 1.5rem;
+
+                    i {
                         padding-right: 10px;
                         font-size: 2rem;
                     }
                 }
-                
+
             }
-    
+
             .btn-primary {
                 font-size: 1.2rem;
                 padding: 10px 25px;
@@ -332,9 +394,9 @@ main {
                 background-color: white;
                 color: black;
                 font-weight: 700;
-                text-transform: capitalize;
+                text-transform: uppercase;
             }
-    
+
             .btn-primary:hover {
                 font-size: 1.5rem;
                 padding: 10px 25px;
@@ -344,6 +406,62 @@ main {
                 color: white;
                 font-weight: 700;
                 transition: all 2s ease-in-out 0.1s;
+            }
+        }
+
+        .our-collection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            h1 {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+
+            .our-card-collection {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .card-collection {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+
+                .card-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    padding-top: 5px;
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+
+                    }
+
+                    h3 {
+                        text-transform: uppercase;
+                        color: #282828;
+                        text-align: center;
+                        font-family: Montserrat;
+                        font-size: 1rem;
+                        font-weight: 500;
+
+                    }
+                }
             }
         }
     }
@@ -392,7 +510,7 @@ main {
     }
 
     main {
-        
+
 
         .hero-container {
             flex-direction: column;
@@ -442,22 +560,24 @@ main {
             justify-content: center;
             gap: 40px;
             background-color: #F4F4F4;
-    
+
             .service-name {
                 display: flex;
                 flex-direction: column;
                 padding: 8px;
                 align-items: center;
                 gap: 35px;
-                h3{
+
+                h3 {
                     font-size: 2rem;
-                    i{
+
+                    i {
                         padding-right: 10px;
                         font-size: 2.6rem;
                     }
                 }
             }
-    
+
             .btn-primary {
                 font-size: 1.2rem;
                 padding: 10px 25px;
@@ -466,9 +586,9 @@ main {
                 background-color: white;
                 color: black;
                 font-weight: 700;
-                text-transform: capitalize;
+                text-transform: uppercase;
             }
-    
+
             .btn-primary:hover {
                 font-size: 1.5rem;
                 padding: 10px 25px;
@@ -480,8 +600,63 @@ main {
                 transition: all 2s ease-in-out 0.1s;
             }
         }
+
+        .our-collection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            h1 {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+
+            .our-card-collection {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .card-collection {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+
+                .card-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    padding-top: 5px;
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h3 {
+                        text-transform: uppercase;
+                        color: #282828;
+                        text-align: center;
+                        font-family: Montserrat;
+                        font-size: 1rem;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+        }
     }
 }
+
+
 
 
 /* media query for large device started*/
@@ -509,7 +684,7 @@ main {
 
     main {
         padding: 30px 30px;
-        
+
 
         .hero-container {
             display: flex;
@@ -569,22 +744,24 @@ main {
             justify-content: center;
             gap: 40px;
             background-color: #F4F4F4;
-    
+
             .service-name {
                 display: flex;
                 flex-direction: row;
                 padding: 8px;
                 align-items: center;
                 gap: 35px;
-                h3{
-                    font-size: 2.8rem;
-                    i{
+
+                h3 {
+                    font-size: 2rem;
+
+                    i {
                         padding-right: 10px;
-                        font-size: 3.5rem;
+                        font-size: 2.5rem;
                     }
                 }
             }
-    
+
             .btn-primary {
                 font-size: 1.2rem;
                 padding: 10px 25px;
@@ -593,9 +770,9 @@ main {
                 background-color: white;
                 color: black;
                 font-weight: 700;
-                text-transform: capitalize;
+                text-transform: uppercase;
             }
-    
+
             .btn-primary:hover {
                 font-size: 1.5rem;
                 padding: 10px 25px;
@@ -607,8 +784,62 @@ main {
                 transition: all 2s ease-in-out 0.1s;
             }
         }
+
+        .our-collection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            h1 {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+
+            .our-card-collection {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .card-collection {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+
+                .card-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    padding-top: 5px;
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h3 {
+                        text-transform: uppercase;
+                        color: #282828;
+                        text-align: center;
+                        font-family: Montserrat;
+                        font-size: 1rem;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+        }
     }
 }
+
 
 
 /* media query for extra large device started*/
@@ -636,7 +867,7 @@ main {
 
     main {
         padding: 30px 30px;
-       
+
 
         .hero-container {
             display: flex;
@@ -696,22 +927,24 @@ main {
             justify-content: center;
             gap: 40px;
             background-color: #F4F4F4;
-    
+
             .service-name {
                 display: flex;
                 flex-direction: row;
                 padding: 8px;
                 align-items: center;
                 gap: 40px;
-               h3{
-                font-size: 3.2rem;
-                i{
-                    padding-right: 10px;
-                    font-size: 4rem;
+
+                h3 {
+                    font-size: 2rem;
+
+                    i {
+                        padding-right: 10px;
+                        font-size: 2.6rem;
+                    }
                 }
-               }
             }
-    
+
             .btn-primary {
                 font-size: 1.2rem;
                 padding: 10px 25px;
@@ -720,9 +953,9 @@ main {
                 background-color: white;
                 color: black;
                 font-weight: 700;
-                text-transform: capitalize;
+                text-transform: uppercase;
             }
-    
+
             .btn-primary:hover {
                 font-size: 1.2rem;
                 padding: 10px 25px;
@@ -734,7 +967,60 @@ main {
                 transition: all 2s ease-in-out 0.1s;
             }
         }
-        
 
+        .our-collection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            h1 {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+
+            .our-card-collection {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .card-collection {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+
+                .card-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    padding-top: 5px;
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h3 {
+                        text-transform: uppercase;
+                        color: #282828;
+                        text-align: center;
+                        font-family: Montserrat;
+                        font-size: 1rem;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+        }
     }
+
+
 }
