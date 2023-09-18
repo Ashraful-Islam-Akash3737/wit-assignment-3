@@ -157,7 +157,54 @@ main {
 
     /* hero section end  */
 
+
+    /* our-service section start */
+    .our-service {
+        margin-top: 30px;
+        display: inline-flex;
+        padding: 30px 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        background-color: #F4F4F4;
+
+        .service-name {
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .btn-primary {
+            font-size: 1.2rem;
+            padding: 10px 25px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+
+        .btn-primary:hover {
+            font-size: 1.5rem;
+            padding: 10px 25px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: gray;
+            color: white;
+            font-weight: 700;
+            transition: all 2s ease-in-out 0.1s;
+        }
+    }
 }
+
+/* our-service section end */
+
+
+
+
 
 /* media query started  */
 /* media query for mobile or small device started  */
@@ -211,7 +258,7 @@ main {
     }
 
     main {
-        /* hero section start  */
+       
 
         .hero-container {
             flex-direction: column;
@@ -251,7 +298,54 @@ main {
             }
         }
 
-        /* hero section end  */
+       
+        .our-service {
+            margin-top: 30px;
+            display: inline-flex;
+            padding: 20px 20px;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            background-color: #F4F4F4;
+    
+            .service-name {
+                display: flex;
+                flex-direction: column;
+                padding: 8px;
+                align-items: center;
+                gap: 35px;
+                h3{
+                    font-size:1.5rem ;
+                    i{
+                        padding-right: 10px;
+                        font-size: 2rem;
+                    }
+                }
+                
+            }
+    
+            .btn-primary {
+                font-size: 1.2rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: white;
+                color: black;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+    
+            .btn-primary:hover {
+                font-size: 1.5rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+            }
+        }
     }
 }
 
@@ -298,7 +392,7 @@ main {
     }
 
     main {
-        /* hero section start  */
+        
 
         .hero-container {
             flex-direction: column;
@@ -339,7 +433,53 @@ main {
             }
         }
 
-        /* hero section end  */
+        .our-service {
+            margin-top: 30px;
+            display: flex;
+            padding: 30px 30px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            background-color: #F4F4F4;
+    
+            .service-name {
+                display: flex;
+                flex-direction: column;
+                padding: 8px;
+                align-items: center;
+                gap: 35px;
+                h3{
+                    font-size: 2rem;
+                    i{
+                        padding-right: 10px;
+                        font-size: 2.6rem;
+                    }
+                }
+            }
+    
+            .btn-primary {
+                font-size: 1.2rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: white;
+                color: black;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+    
+            .btn-primary:hover {
+                font-size: 1.5rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+            }
+        }
     }
 }
 
@@ -368,8 +508,8 @@ main {
     }
 
     main {
-        padding: 30px 25px;
-        /* hero section start  */
+        padding: 30px 30px;
+        
 
         .hero-container {
             display: flex;
@@ -420,13 +560,59 @@ main {
             }
         }
 
-        /* hero section end  */
+        .our-service {
+            margin-top: 30px;
+            display: flex;
+            padding: 30px 30px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            background-color: #F4F4F4;
+    
+            .service-name {
+                display: flex;
+                flex-direction: row;
+                padding: 8px;
+                align-items: center;
+                gap: 35px;
+                h3{
+                    font-size: 2.8rem;
+                    i{
+                        padding-right: 10px;
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+    
+            .btn-primary {
+                font-size: 1.2rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: white;
+                color: black;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+    
+            .btn-primary:hover {
+                font-size: 1.5rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+            }
+        }
     }
 }
 
 
 /* media query for extra large device started*/
-@media screen and (min-width:1400px) and (max-width:1800px) {
+@media screen and (min-width:1300px) {
     nav {
         justify-content: space-evenly;
 
@@ -449,8 +635,8 @@ main {
     }
 
     main {
-        padding: 30px 75px;
-        /* hero section start  */
+        padding: 30px 30px;
+       
 
         .hero-container {
             display: flex;
@@ -501,7 +687,54 @@ main {
             }
         }
 
-        /* hero section end  */
+        .our-service {
+            margin-top: 30px;
+            display: flex;
+            padding: 30px 30px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            background-color: #F4F4F4;
+    
+            .service-name {
+                display: flex;
+                flex-direction: row;
+                padding: 8px;
+                align-items: center;
+                gap: 40px;
+               h3{
+                font-size: 3.2rem;
+                i{
+                    padding-right: 10px;
+                    font-size: 4rem;
+                }
+               }
+            }
+    
+            .btn-primary {
+                font-size: 1.2rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: white;
+                color: black;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+    
+            .btn-primary:hover {
+                font-size: 1.2rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+            }
+        }
+        
 
     }
 }

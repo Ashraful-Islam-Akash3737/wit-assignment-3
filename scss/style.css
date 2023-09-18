@@ -83,6 +83,7 @@ main {
   padding: 30px 35px;
   /* hero section start  */
   /* hero section end  */
+  /* our-service section start */
 }
 main .hero-container {
   display: flex;
@@ -126,7 +127,44 @@ main .hero-container .hero-content .btn-primary:hover {
   font-weight: 700;
   transition: all 2s ease-in-out 0.1s;
 }
+main .our-service {
+  margin-top: 30px;
+  display: inline-flex;
+  padding: 30px 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #F4F4F4;
+}
+main .our-service .service-name {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  align-items: center;
+  gap: 35px;
+}
+main .our-service .btn-primary {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+main .our-service .btn-primary:hover {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
+}
 
+/* our-service section end */
 /* media query started  */
 /* media query for mobile or small device started  */
 @media screen and (max-width: 576px) {
@@ -165,10 +203,6 @@ main .hero-container .hero-content .btn-primary:hover {
   header .nav-logo-icon {
     justify-content: center;
   }
-  main {
-    /* hero section start  */
-    /* hero section end  */
-  }
   main .hero-container {
     flex-direction: column;
   }
@@ -201,6 +235,49 @@ main .hero-container .hero-content .btn-primary:hover {
     color: black;
     font-weight: 700;
   }
+  main .our-service {
+    margin-top: 30px;
+    display: inline-flex;
+    padding: 20px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #F4F4F4;
+  }
+  main .our-service .service-name {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    gap: 35px;
+  }
+  main .our-service .service-name h3 {
+    font-size: 1.5rem;
+  }
+  main .our-service .service-name h3 i {
+    padding-right: 10px;
+    font-size: 2rem;
+  }
+  main .our-service .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  main .our-service .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* media query for tablet or medium device started*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -231,10 +308,6 @@ main .hero-container .hero-content .btn-primary:hover {
   }
   header nav .nav-logo-icon {
     justify-content: center;
-  }
-  main {
-    /* hero section start  */
-    /* hero section end  */
   }
   main .hero-container {
     flex-direction: column;
@@ -268,6 +341,50 @@ main .hero-container .hero-content .btn-primary:hover {
     color: black;
     font-weight: 700;
   }
+  main .our-service {
+    margin-top: 30px;
+    display: flex;
+    padding: 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #F4F4F4;
+  }
+  main .our-service .service-name {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    gap: 35px;
+  }
+  main .our-service .service-name h3 {
+    font-size: 2rem;
+  }
+  main .our-service .service-name h3 i {
+    padding-right: 10px;
+    font-size: 2.6rem;
+  }
+  main .our-service .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  main .our-service .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* media query for large device started*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
@@ -286,9 +403,7 @@ main .hero-container .hero-content .btn-primary:hover {
     font-size: 1.5rem;
   }
   main {
-    padding: 30px 25px;
-    /* hero section start  */
-    /* hero section end  */
+    padding: 30px 30px;
   }
   main .hero-container {
     display: flex;
@@ -331,9 +446,53 @@ main .hero-container .hero-content .btn-primary:hover {
     font-weight: 700;
     transition: all 2s ease-in-out 0.1s;
   }
+  main .our-service {
+    margin-top: 30px;
+    display: flex;
+    padding: 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #F4F4F4;
+  }
+  main .our-service .service-name {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    align-items: center;
+    gap: 35px;
+  }
+  main .our-service .service-name h3 {
+    font-size: 2.8rem;
+  }
+  main .our-service .service-name h3 i {
+    padding-right: 10px;
+    font-size: 3.5rem;
+  }
+  main .our-service .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  main .our-service .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* media query for extra large device started*/
-@media screen and (min-width: 1400px) and (max-width: 1800px) {
+@media screen and (min-width: 1300px) {
   nav {
     justify-content: space-evenly;
   }
@@ -349,9 +508,7 @@ main .hero-container .hero-content .btn-primary:hover {
     font-size: 1.5rem;
   }
   main {
-    padding: 30px 75px;
-    /* hero section start  */
-    /* hero section end  */
+    padding: 30px 30px;
   }
   main .hero-container {
     display: flex;
@@ -386,6 +543,50 @@ main .hero-container .hero-content .btn-primary:hover {
   }
   main .hero-container .hero-content .btn-primary:hover {
     font-size: 2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .our-service {
+    margin-top: 30px;
+    display: flex;
+    padding: 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #F4F4F4;
+  }
+  main .our-service .service-name {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    align-items: center;
+    gap: 40px;
+  }
+  main .our-service .service-name h3 {
+    font-size: 3.2rem;
+  }
+  main .our-service .service-name h3 i {
+    padding-right: 10px;
+    font-size: 4rem;
+  }
+  main .our-service .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  main .our-service .btn-primary:hover {
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
