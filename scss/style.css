@@ -328,7 +328,7 @@ main .hero-container .hero-content .btn-primary:hover {
   }
 }
 /* media query for extra large device started*/
-@media screen and (min-width: 992px) and (max-width: 1400px) {
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
   nav {
     justify-content: space-evenly;
   }
