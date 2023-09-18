@@ -49,10 +49,11 @@ header nav ul li .home {
   margin-right: 50px;
   margin-bottom: 20px;
   border-bottom: 1px solid black;
+  border-top: 1px solid white;
   padding: 10px 5px;
   border-radius: 8px;
-  color: white;
-  background-color: #000;
+  color: black;
+  background-color: white;
 }
 header nav ul li a:hover {
   text-decoration: none;
@@ -64,6 +65,7 @@ header nav ul li a:hover {
   border-radius: 8px;
   color: white;
   background-color: #000;
+  transition: all 2s ease-in-out 0.1s;
 }
 header nav .nav-logo-icon {
   display: flex;
@@ -76,6 +78,54 @@ header nav .nav-logo-icon i {
 }
 
 /* header section ended  */
+/* main section start  */
+main {
+  padding: 30px 35px;
+  /* hero section start  */
+}
+main .hero-container {
+  display: flex;
+}
+main .hero-container img {
+  width: 120%;
+}
+main .hero-container .hero-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+}
+main .hero-container .hero-content h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+main .hero-container .hero-content p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+main .hero-container .hero-content .btn-primary {
+  font-size: 2rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+main .hero-container .hero-content .btn-primary:hover {
+  font-size: 2rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
+}
+
 /* media query started  */
 /* media query for mobile or small device started  */
 @media screen and (max-width: 576px) {
@@ -114,6 +164,41 @@ header nav .nav-logo-icon i {
   header .nav-logo-icon {
     justify-content: center;
   }
+  main {
+    /* hero section start  */
+  }
+  main .hero-container {
+    flex-direction: column;
+  }
+  main .hero-container img {
+    width: 100%;
+    height: 300px;
+  }
+  main .hero-container .hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  main .hero-container .hero-content h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  main .hero-container .hero-content p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  main .hero-container .hero-content .btn-primary {
+    font-size: 2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+  }
 }
 /* media query for tablet or medium device started*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -145,6 +230,40 @@ header nav .nav-logo-icon i {
   header nav .nav-logo-icon {
     justify-content: center;
   }
+  main {
+    /* hero section start  */
+  }
+  main .hero-container {
+    flex-direction: column;
+  }
+  main .hero-container img {
+    width: 100%;
+  }
+  main .hero-container .hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  main .hero-container .hero-content h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  main .hero-container .hero-content p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  main .hero-container .hero-content .btn-primary {
+    font-size: 2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+  }
 }
 /* media query for large device started*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
@@ -161,5 +280,112 @@ header nav .nav-logo-icon i {
   }
   nav ul li a {
     font-size: 1.5rem;
+  }
+  main {
+    padding: 30px 25px;
+    /* hero section start  */
+  }
+  main .hero-container {
+    display: flex;
+  }
+  main .hero-container img {
+    width: 120%;
+  }
+  main .hero-container .hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .hero-container .hero-content h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  main .hero-container .hero-content p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  main .hero-container .hero-content .btn-primary {
+    font-size: 2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  main .hero-container .hero-content .btn-primary:hover {
+    font-size: 2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
+}
+/* media query for extra large device started*/
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  nav {
+    justify-content: space-evenly;
+  }
+  nav ul {
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav ul li {
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li a {
+    font-size: 1.5rem;
+  }
+  main {
+    padding: 30px 75px;
+    /* hero section start  */
+  }
+  main .hero-container {
+    display: flex;
+  }
+  main .hero-container img {
+    width: 100%;
+  }
+  main .hero-container .hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .hero-container .hero-content h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  main .hero-container .hero-content p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  main .hero-container .hero-content .btn-primary {
+    font-size: 2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  main .hero-container .hero-content .btn-primary:hover {
+    font-size: 2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
   }
 }/*# sourceMappingURL=style.css.map */
