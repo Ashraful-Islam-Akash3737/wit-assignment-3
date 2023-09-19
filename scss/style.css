@@ -351,6 +351,58 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
   transition: all 2s ease-in-out 0.1s;
 }
 
+/* main section end  */
+/*footer section start*/
+footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+footer .footer-container .footer-container-1 {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+footer .footer-container .footer-container-1 h1 {
+  text-align: center;
+}
+footer .footer-container .footer-container-1 p {
+  text-align: center;
+}
+footer .footer-container .footer-container-2 {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+footer .footer-container .footer-container-2 h1 {
+  text-align: center;
+}
+footer .footer-container .footer-container-2 p {
+  text-align: center;
+}
+footer .footer-container .footer-container-3 {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+footer .footer-container .footer-container-3 h1 {
+  text-align: center;
+}
+footer .footer-container .footer-container-3 p {
+  text-align: center;
+}
+footer .footer-container .footer-container-4 {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+footer .footer-container .footer-container-4 h1 {
+  text-align: center;
+}
+footer .footer-container .footer-container-4 p {
+  text-align: center;
+}
+/*footer section end*/
 /* media query started  */
 /* media query for mobile or small device started  */
 @media screen and (max-width: 576px) {
@@ -540,7 +592,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -573,7 +625,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -599,7 +651,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .wholesalers-container .wholesalers-content .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -789,7 +841,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -822,7 +874,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -853,7 +905,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .wholesalers-container .wholesalers-content .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -1046,7 +1098,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -1084,7 +1136,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -1127,7 +1179,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .wholesalers-container .wholesalers-content .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -1321,7 +1373,7 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
@@ -1359,12 +1411,55 @@ main .wholesalers-container .wholesalers-content .btn-primary:hover {
     text-align: center;
   }
   main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 25px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: gray;
     text-align: center;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .wholesalers-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+  }
+  main .wholesalers-container img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .wholesalers-container .wholesalers-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .wholesalers-container .wholesalers-content h1 {
+    padding-bottom: 100px;
+  }
+  main .wholesalers-container .wholesalers-content p {
+    padding-bottom: 100px;
+  }
+  main .wholesalers-container .wholesalers-content .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main .wholesalers-container .wholesalers-content .btn-primary:hover {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
     color: white;
     font-weight: 700;
     transition: all 2s ease-in-out 0.1s;
