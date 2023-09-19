@@ -95,6 +95,8 @@ main {
   /* our-collections section end  */
   /* last-blog-post section start */
   /* last-blog-post section end */
+  /*  WHOLESALERS section start*/
+  /* WHOLESALERS section end*/
 }
 main .hero-container {
   display: flex;
@@ -318,6 +320,32 @@ main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last
   border-radius: 10px;
   background-color: gray;
   text-align: center;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .wholesalers-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+main .wholesalers-container .wholesalers-content .btn-primary {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .wholesalers-container .wholesalers-content .btn-primary:hover {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: gray;
   color: white;
   font-weight: 700;
   transition: all 2s ease-in-out 0.1s;

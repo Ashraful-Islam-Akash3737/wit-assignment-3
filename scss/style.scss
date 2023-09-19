@@ -187,6 +187,7 @@ main {
         gap: 40px;
         background-color: #F4F4F4;
         border-radius: 10px;
+
         .service-name {
             display: flex;
             flex-direction: column;
@@ -299,8 +300,9 @@ main {
         background-color: #F4F4F4;
         padding: 20px 10px;
         border-radius: 10px;
+
         h1 {
-            margin-bottom:50px ;
+            margin-bottom: 50px;
             font-family: Prosto One;
             text-align: center;
             font-size: 2rem;
@@ -325,6 +327,7 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     padding-bottom: 30px;
+
                     .btn-primary {
                         font-size: 1.2rem;
                         padding: 10px 25px;
@@ -365,6 +368,7 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     padding-bottom: 30px;
+
                     .btn-primary {
                         font-size: 1.2rem;
                         padding: 10px 25px;
@@ -396,6 +400,39 @@ main {
     /* last-blog-post section end */
 
 
+    /*  WHOLESALERS section start*/
+    .wholesalers-container{
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .wholesalers-content{
+            .btn-primary {
+                font-size: 1.2rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: white;
+                color: black;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            .btn-primary:hover {
+                font-size: 1.5rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                text-align: center;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+            }
+        }
+    }
+    /* WHOLESALERS section end*/
 }
 
 
@@ -611,14 +648,14 @@ main {
         .last-blog-post {
 
             h1 {
-    
+
                 font-family: Prosto One;
                 text-align: center;
                 font-size: 2rem;
                 font-weight: 900;
                 text-transform: capitalize;
             }
-    
+
             .last-blog-post-container {
                 .last-blog-post-container-1 {
                     .last-blog-post-container-1-content-1 {
@@ -627,13 +664,14 @@ main {
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-1-content-2 {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         justify-content: center;
                         padding-bottom: 30px;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -645,7 +683,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
@@ -659,22 +697,23 @@ main {
                         }
                     }
                 }
-    
+
                 .last-blog-post-container-2 {
-    
+
                     .last-blog-post-container-2-content-1 {
                         img {
                             width: 100%;
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-2-content-2 {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         justify-content: center;
                         padding-bottom: 30px;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -686,7 +725,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
@@ -895,14 +934,14 @@ main {
         .last-blog-post {
 
             h1 {
-    
+
                 font-family: Prosto One;
                 text-align: center;
                 font-size: 2rem;
                 font-weight: 900;
                 text-transform: capitalize;
             }
-    
+
             .last-blog-post-container {
                 .last-blog-post-container-1 {
                     .last-blog-post-container-1-content-1 {
@@ -911,13 +950,14 @@ main {
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-1-content-2 {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         justify-content: center;
                         padding-bottom: 30px;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -929,7 +969,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
@@ -943,22 +983,23 @@ main {
                         }
                     }
                 }
-    
+
                 .last-blog-post-container-2 {
-    
+
                     .last-blog-post-container-2-content-1 {
                         img {
                             width: 100%;
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-2-content-2 {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         justify-content: center;
                         padding-bottom: 30px;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -970,7 +1011,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
@@ -1181,17 +1222,18 @@ main {
                 font-weight: 900;
                 text-transform: capitalize;
             }
-    
+
             .last-blog-post-container {
                 .last-blog-post-container-1 {
                     display: flex;
+
                     .last-blog-post-container-1-content-1 {
                         img {
                             width: 100%;
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-1-content-2 {
                         display: flex;
                         align-items: center;
@@ -1199,6 +1241,7 @@ main {
                         justify-content: center;
                         padding: 30px;
                         width: 50%;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -1210,7 +1253,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
@@ -1224,17 +1267,18 @@ main {
                         }
                     }
                 }
-    
+
                 .last-blog-post-container-2 {
                     display: flex;
                     flex-direction: row-reverse;
+
                     .last-blog-post-container-2-content-1 {
                         img {
                             width: 100%;
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-2-content-2 {
                         display: flex;
                         align-items: center;
@@ -1242,6 +1286,7 @@ main {
                         justify-content: center;
                         padding: 30px;
                         width: 50%;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -1253,7 +1298,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
@@ -1463,17 +1508,18 @@ main {
                 font-weight: 900;
                 text-transform: capitalize;
             }
-    
+
             .last-blog-post-container {
                 .last-blog-post-container-1 {
                     display: flex;
+
                     .last-blog-post-container-1-content-1 {
                         img {
                             width: 100%;
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-1-content-2 {
                         display: flex;
                         align-items: center;
@@ -1481,6 +1527,7 @@ main {
                         justify-content: center;
                         padding: 100px;
                         width: 50%;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -1492,7 +1539,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
@@ -1506,17 +1553,18 @@ main {
                         }
                     }
                 }
-    
+
                 .last-blog-post-container-2 {
                     display: flex;
                     flex-direction: row-reverse;
+
                     .last-blog-post-container-2-content-1 {
                         img {
                             width: 100%;
                             border-radius: 10px;
                         }
                     }
-    
+
                     .last-blog-post-container-2-content-2 {
                         display: flex;
                         align-items: center;
@@ -1524,6 +1572,7 @@ main {
                         justify-content: center;
                         padding: 100px;
                         width: 50%;
+
                         .btn-primary {
                             font-size: 1.2rem;
                             padding: 10px 25px;
@@ -1535,7 +1584,7 @@ main {
                             text-transform: uppercase;
                             text-align: center;
                         }
-    
+
                         .btn-primary:hover {
                             font-size: 1.5rem;
                             padding: 10px 25px;
