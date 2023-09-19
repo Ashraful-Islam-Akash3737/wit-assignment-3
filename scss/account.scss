@@ -97,6 +97,11 @@ header {
                 text-transform: capitalize;
                 padding-right: 15px;
                 margin-right: 40px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
             }
 
             .btn-primary:hover {
@@ -132,7 +137,77 @@ header {
 /* header section ended  */
 
 
+/* main section start  */
+main {
+    padding: 20px 10px;
 
+    /* sign-in section start  */
+    .sign-in-formality {
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .sign-in-part {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin: 10px;
+
+            input {
+                padding: 10px 20px;
+            }
+
+        }
+
+        .optional-part {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                text-align: center;
+                color:#C3B212;
+            }
+
+        }
+
+        .btn-primary {
+            font-size: 1rem;
+            padding: 10px 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+    
+        .btn-primary:hover {
+            font-size: 1rem;
+            padding: 10px 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: gray;
+            color: white;
+            font-weight: 700;
+            transition: all 2s ease-in-out 0.1s;
+        }
+
+    }
+
+    
+}
+
+/* sign-in section end */
+
+
+/* main section end  */
 
 
 

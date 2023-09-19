@@ -28,7 +28,7 @@
 
             </ul>
             <div class="nav-logo-icon">
-                <button class="btn-primary">Sign-in</button>
+                <button class="btn-primary"><a href="account.html">Sign-in</a></button>
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-regular fa-user"></i>
                 <i class="fa-solid fa-bag-shopping"></i>
@@ -37,5 +37,30 @@
         </nav>
     </header>
     <!--header section end-->
+
+    <!--main section start-->
+    <main>
+        <!--sign-in section start-->
+        <div class="sign-in-formality">
+            <div class="sign-in-part">
+                <h4>Already a customer?</h4>
+                <h6>Welcome back! Sign in for faster checkout.</h6>
+            </div>
+            <label for="email">
+                <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
+            </label>
+            <label for="password">
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            </label>
+            <div class="optional-part">
+                <h6><input type="checkbox" name="checkbox" id="checkbox" placeholder="">Please remenber me</p>
+                <p >Forget password?</h6>
+            </div>
+            <button class="btn-primary">SIGN IN</button>
+        </div>
+        
+        <!--sign-in section end-->
+    </main>
+    <!--main section end-->
 </body>
 </html>
