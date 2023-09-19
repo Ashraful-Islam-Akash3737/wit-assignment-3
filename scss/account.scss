@@ -143,7 +143,7 @@ main {
 
     /* sign-in section start  */
     .sign-in-formality {
-        background-color:  #F4F4F4;
+        background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -171,7 +171,7 @@ main {
 
             p {
                 text-align: center;
-                color:#C3B212;
+                color: #C3B212;
             }
 
         }
@@ -187,7 +187,7 @@ main {
             text-transform: capitalize;
             margin-bottom: 20px;
         }
-    
+
         .btn-primary:hover {
             font-size: 1.5rem;
             padding: 10px 15px;
@@ -200,12 +200,112 @@ main {
         }
 
     }
+
     /* sign-in section end */
 
 
+
+
     /* new-user-formality section start*/
-    
+    .new-user-formality {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #F4F4F4;
+        border-top: 2px double black;
+
+        .new-user-part {
+            .new-user-part-header {
+                h5 {
+                    text-align: start;
+                }
+
+            }
+
+            .new-user-part-footer {
+                text-align: start;
+
+                p {
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+
+        .btn-primary {
+            font-size: 1.5rem;
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+
+        .btn-primary:hover {
+            font-size: 1.5rem;
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: gray;
+            color: white;
+            font-weight: 700;
+            transition: all 2s ease-in-out 0.1s;
+        }
+
+    }
+
     /* new-user-formality section end */
+
+    /* guest-user-formality section start*/
+    .guest-user-formality {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #F4F4F4;
+        border-top: 2px double black;
+
+        .guest-user-part {
+            h5 {
+                text-align: start;
+            }
+
+        }
+
+        .btn-primary {
+            font-size: 1.5rem;
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+
+        .btn-primary:hover {
+            font-size: 1.5rem;
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: gray;
+            color: white;
+            font-weight: 700;
+            transition: all 2s ease-in-out 0.1s;
+        }
+
+    }
+
+    /* guest-user-formality section end*/
+
+
+
 }
 
 /* main section end */
@@ -273,7 +373,7 @@ main {
     }
 
     .sign-in-formality {
-        background-color:  #F4F4F4;
+        background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -301,7 +401,7 @@ main {
 
             p {
                 text-align: center;
-                color:#C3B212;
+                color: #C3B212;
             }
 
         }
@@ -317,7 +417,7 @@ main {
             text-transform: capitalize;
             margin-bottom: 20px;
         }
-    
+
         .btn-primary:hover {
             font-size: 1rem;
             padding: 10px 10px;
@@ -374,7 +474,7 @@ main {
     }
 
     .sign-in-formality {
-        background-color:  #F4F4F4;
+        background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -402,7 +502,7 @@ main {
 
             p {
                 text-align: center;
-                color:#C3B212;
+                color: #C3B212;
             }
 
         }
@@ -418,7 +518,7 @@ main {
             text-transform: capitalize;
             margin-bottom: 20px;
         }
-    
+
         .btn-primary:hover {
             font-size: 1.5rem;
             padding: 10px 15px;
@@ -459,7 +559,7 @@ main {
     }
 
     .sign-in-formality {
-        background-color:  #F4F4F4;
+        background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -487,7 +587,7 @@ main {
 
             p {
                 text-align: center;
-                color:#C3B212;
+                color: #C3B212;
             }
 
         }
@@ -503,7 +603,7 @@ main {
             text-transform: capitalize;
             margin-bottom: 20px;
         }
-    
+
         .btn-primary:hover {
             font-size: 1.5rem;
             padding: 10px 15px;
@@ -545,7 +645,7 @@ main {
     }
 
     .sign-in-formality {
-        background-color:  #F4F4F4;
+        background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -573,7 +673,7 @@ main {
 
             p {
                 text-align: center;
-                color:#C3B212;
+                color: #C3B212;
             }
 
         }
@@ -589,7 +689,7 @@ main {
             text-transform: capitalize;
             margin-bottom: 20px;
         }
-    
+
         .btn-primary:hover {
             font-size: 1.5rem;
             padding: 10px 15px;

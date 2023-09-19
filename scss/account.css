@@ -118,6 +118,8 @@ main {
   /* sign-in section end */
   /* new-user-formality section start*/
   /* new-user-formality section end */
+  /* guest-user-formality section start*/
+  /* guest-user-formality section end*/
 }
 main .sign-in-formality {
   background-color: #F4F4F4;
@@ -158,6 +160,76 @@ main .sign-in-formality .btn-primary {
   margin-bottom: 20px;
 }
 main .sign-in-formality .btn-primary:hover {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .new-user-formality {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #F4F4F4;
+  border-top: 2px double black;
+}
+main .new-user-formality .new-user-part .new-user-part-header h5 {
+  text-align: start;
+}
+main .new-user-formality .new-user-part .new-user-part-footer {
+  text-align: start;
+}
+main .new-user-formality .new-user-part .new-user-part-footer p i {
+  padding-right: 10px;
+}
+main .new-user-formality .btn-primary {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+main .new-user-formality .btn-primary:hover {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .guest-user-formality {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #F4F4F4;
+  border-top: 2px double black;
+}
+main .guest-user-formality .guest-user-part h5 {
+  text-align: start;
+}
+main .guest-user-formality .btn-primary {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+main .guest-user-formality .btn-primary:hover {
   font-size: 1.5rem;
   padding: 10px 15px;
   border: 2px solid black;
