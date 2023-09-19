@@ -445,11 +445,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
+        background-color: rgb(228, 225, 225);
         .footer-container-1 {
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
-
+            background-color: white;
             h1{
                 text-align: center;
                 border-bottom: 2px dashed black; 
@@ -465,7 +466,7 @@ footer {
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
-
+            background-color: white;
             h1{
                 text-align: center;
                 border-bottom: 2px dashed black;
@@ -481,7 +482,7 @@ footer {
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
-
+            background-color: white;
             h1{
                 text-align: center;
                 border-bottom: 2px dashed black; 
@@ -497,6 +498,7 @@ footer {
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
+            background-color: white;
             h1{
                 text-align: center;
                 border-bottom: 2px dashed black;

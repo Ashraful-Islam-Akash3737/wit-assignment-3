@@ -357,11 +357,13 @@ footer .footer-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  background-color: rgb(228, 225, 225);
 }
 footer .footer-container .footer-container-1 {
   border: 2px solid black;
   padding: 5px;
   border-radius: 10px;
+  background-color: white;
 }
 footer .footer-container .footer-container-1 h1 {
   text-align: center;
@@ -374,6 +376,7 @@ footer .footer-container .footer-container-2 {
   border: 2px solid black;
   padding: 5px;
   border-radius: 10px;
+  background-color: white;
 }
 footer .footer-container .footer-container-2 h1 {
   text-align: center;
@@ -386,6 +389,7 @@ footer .footer-container .footer-container-3 {
   border: 2px solid black;
   padding: 5px;
   border-radius: 10px;
+  background-color: white;
 }
 footer .footer-container .footer-container-3 h1 {
   text-align: center;
@@ -398,6 +402,7 @@ footer .footer-container .footer-container-4 {
   border: 2px solid black;
   padding: 5px;
   border-radius: 10px;
+  background-color: white;
 }
 footer .footer-container .footer-container-4 h1 {
   text-align: center;
