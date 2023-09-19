@@ -84,6 +84,18 @@ header nav .nav-logo-icon i:hover {
 }
 
 /* header section ended   */
+/* main section start  */
+main {
+  padding: 0px 20px;
+  /* hero section start  */
+  /* hero section end */
+}
+main .hero-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* main section end  */
 /* media query started  */
 /* media query for mobile or small device started  */
 @media screen and (max-width: 576px) {

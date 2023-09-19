@@ -106,8 +106,20 @@ header {
 /* header section ended   */
 
 
-
-
+/* main section start  */
+main{
+    padding: 0px 20px;
+    /* hero section start  */
+    .hero-img{
+        
+        img{
+            width: 100%;
+            border-radius: 10px; 
+        }
+    }
+    /* hero section end */
+}
+/* main section end  */
 
 
 
