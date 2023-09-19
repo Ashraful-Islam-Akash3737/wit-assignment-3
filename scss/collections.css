@@ -130,7 +130,7 @@ main .our-collection h1:hover {
 }
 main .our-collection .card-collection {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 10px;
 }
 main .our-collection .card-collection .card-content {

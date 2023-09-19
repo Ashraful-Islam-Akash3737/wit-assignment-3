@@ -86,6 +86,31 @@ header {
             align-items: center;
             padding: 20px 0px;
 
+            .btn-primary {
+                font-size: 1rem;
+                padding: 10px 15px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+                font-weight: 700;
+                text-transform: capitalize;
+                padding-right: 15px;
+                margin-right: 40px;
+            }
+
+            .btn-primary:hover {
+                font-size: 1rem;
+                padding: 10px 15px;
+                border: 2px solid black;
+                border-radius: 30px;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+                padding-right: 15px;
+            }
+
             i {
                 font-size: 2rem;
                 padding: 5px 20px;
@@ -441,20 +466,23 @@ main {
 
 /*footer section start*/
 footer {
-    .footer-container{
+    .footer-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         background-color: rgb(228, 225, 225);
+
         .footer-container-1 {
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
             background-color: white;
-            h1{
+
+            h1 {
                 text-align: center;
-                border-bottom: 2px dashed black; 
+                border-bottom: 2px dashed black;
             }
+
             p {
                 text-align: center;
             }
@@ -467,10 +495,12 @@ footer {
             padding: 5px;
             border-radius: 10px;
             background-color: white;
-            h1{
+
+            h1 {
                 text-align: center;
                 border-bottom: 2px dashed black;
             }
+
             p {
                 text-align: center;
             }
@@ -483,10 +513,12 @@ footer {
             padding: 5px;
             border-radius: 10px;
             background-color: white;
-            h1{
+
+            h1 {
                 text-align: center;
-                border-bottom: 2px dashed black; 
+                border-bottom: 2px dashed black;
             }
+
             p {
                 text-align: center;
             }
@@ -494,16 +526,18 @@ footer {
             .footer-container-content {}
         }
 
-        .footer-container-4{
+        .footer-container-4 {
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
             background-color: white;
-            h1{
+
+            h1 {
                 text-align: center;
                 border-bottom: 2px dashed black;
-                 
+
             }
+
             p {
                 text-align: center;
             }
@@ -853,72 +887,78 @@ footer {
     }
 
     footer {
-        .footer-container{
+        .footer-container {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             padding: 0px;
+
             .footer-container-1 {
                 border: 2px solid black;
                 padding: 0px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-2 {
                 border: 2px solid black;
                 padding: 0px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-3 {
                 border: 2px solid black;
                 padding: 0px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
-            .footer-container-4{
+
+            .footer-container-4 {
                 border: 2px solid black;
                 padding: 0px;
                 border-radius: 10px;
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
-                     
+
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
         }
@@ -1247,74 +1287,80 @@ footer {
     }
 
     footer {
-        .footer-container{
+        .footer-container {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
             border: 2px solid black;
             padding: 10px;
             border-radius: 10px;
+
             .footer-container-1 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-2 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-3 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
-            .footer-container-4{
+
+            .footer-container-4 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
-                     
+
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
         }
@@ -1658,9 +1704,9 @@ footer {
     }
 
     footer {
-        .footer-container{
+        .footer-container {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
             border: 2px solid black;
             padding: 10px;
@@ -1670,63 +1716,68 @@ footer {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-2 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-3 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
-            .footer-container-4{
+
+            .footer-container-4 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
-                     
+
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
         }
@@ -2069,9 +2120,9 @@ footer {
     }
 
     footer {
-        .footer-container{
+        .footer-container {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
             border: 2px solid black;
             padding: 10px;
@@ -2081,63 +2132,68 @@ footer {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-2 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
+
             .footer-container-3 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-    
-                h1{
+
+                h1 {
                     text-align: center;
-                    border-bottom: 2px dashed black; 
+                    border-bottom: 2px dashed black;
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
-    
-            .footer-container-4{
+
+            .footer-container-4 {
                 border: 2px solid black;
                 padding: 5px;
                 border-radius: 10px;
-                h1{
+
+                h1 {
                     text-align: center;
                     border-bottom: 2px dashed black;
-                     
+
                 }
+
                 p {
                     text-align: center;
                 }
-    
+
                 .footer-container-content {}
             }
         }
