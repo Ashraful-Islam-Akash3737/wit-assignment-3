@@ -6,7 +6,7 @@
 /* header section started   */
 header {
   background-color: white;
-  padding: 30px 75px;
+  padding: 30px 30px;
 }
 header nav {
   display: flex;
@@ -76,40 +76,55 @@ header nav .nav-logo-icon i {
   font-size: 2rem;
   padding: 5px 20px;
 }
+header nav .nav-logo-icon i:hover {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  transition: all 2s ease-in-out 0.1s;
+}
 
 /* header section ended  */
 /* main section start  */
 main {
   padding: 30px 35px;
   /* hero section start  */
-  /* hero section end  */
-  /* our-service section start */
-  /* our-service section end */
-  /* our-collections section start  */
 }
 main .hero-container {
   display: flex;
 }
 main .hero-container img {
-  width: 120%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-grow: 2%;
 }
-main .hero-container .hero-content {
+main img:hover {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-grow: 2%;
+}
+main .hero-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   padding-left: 80px;
 }
-main .hero-container .hero-content h1 {
+main .hero-content h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
 }
-main .hero-container .hero-content p {
+main .hero-content h1:hover {
+  text-transform: capitalize;
+  transition: all 3s ease-in-out 0.1s;
+}
+main p {
   font-size: 1.3rem;
   font-weight: 500;
 }
-main .hero-container .hero-content .btn-primary {
+main .btn-primary {
   font-size: 2rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -119,7 +134,7 @@ main .hero-container .hero-content .btn-primary {
   font-weight: 700;
   text-transform: capitalize;
 }
-main .hero-container .hero-content .btn-primary:hover {
+main .btn-primary:hover {
   font-size: 2rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -129,7 +144,10 @@ main .hero-container .hero-content .btn-primary:hover {
   font-weight: 700;
   transition: all 2s ease-in-out 0.1s;
 }
-main .our-service {
+
+/* hero section end  */
+/* our-service section start */
+.our-service {
   margin-top: 30px;
   display: inline-flex;
   padding: 30px 30px;
@@ -138,14 +156,23 @@ main .our-service {
   gap: 40px;
   background-color: #F4F4F4;
 }
-main .our-service .service-name {
+.our-service .service-name {
   display: flex;
   flex-direction: column;
   padding: 8px;
   align-items: center;
   gap: 35px;
 }
-main .our-service .btn-primary {
+.our-service .service-name i {
+  padding: 10px 10px;
+}
+.our-service .service-name i:hover {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  transition: all 2s ease-in-out 0.1s;
+}
+.our-service .btn-primary {
   font-size: 1.2rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -155,7 +182,7 @@ main .our-service .btn-primary {
   font-weight: 700;
   text-transform: uppercase;
 }
-main .our-service .btn-primary:hover {
+.our-service .btn-primary:hover {
   font-size: 1.5rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -165,31 +192,34 @@ main .our-service .btn-primary:hover {
   font-weight: 700;
   transition: all 2s ease-in-out 0.1s;
 }
-main .our-collection {
+
+/* our-service section end */
+/* our-collections section start  */
+.our-collection {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-main .our-collection h1 {
+.our-collection h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
   text-transform: capitalize;
 }
-main .our-collection .our-card-collection {
+.our-collection .our-card-collection {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-main .our-collection .our-card-collection .card-collection {
+.our-collection .our-card-collection .card-collection {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-main .our-collection .our-card-collection .card-content {
+.our-collection .our-card-collection .card-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -199,11 +229,12 @@ main .our-collection .our-card-collection .card-content {
   padding-left: 5px;
   margin-bottom: 20px;
 }
-main .our-collection .our-card-collection .card-content img {
+.our-collection .our-card-collection .card-content img {
   width: 360px;
   height: 360px;
+  border-radius: 10px;
 }
-main .our-collection .our-card-collection .card-content h3 {
+.our-collection .our-card-collection .card-content h3 {
   text-transform: uppercase;
   color: #282828;
   text-align: center;
