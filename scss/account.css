@@ -115,6 +115,7 @@ header nav .nav-logo-icon i:hover {
 main {
   padding: 20px 10px;
   /* sign-in section start  */
+  /* sign-in section end */
 }
 main .sign-in-formality {
   background-color: antiquewhite;
@@ -128,10 +129,10 @@ main .sign-in-formality .sign-in-part {
   align-items: center;
 }
 main .sign-in-formality label {
-  margin: 10px;
+  margin: 20px;
 }
 main .sign-in-formality label input {
-  padding: 10px 20px;
+  padding: 20px 40px;
 }
 main .sign-in-formality .optional-part {
   display: inline-flex;
@@ -144,8 +145,8 @@ main .sign-in-formality .optional-part p {
   color: #C3B212;
 }
 main .sign-in-formality .btn-primary {
-  font-size: 1rem;
-  padding: 10px 10px;
+  font-size: 1.5rem;
+  padding: 10px 15px;
   border: 2px solid black;
   border-radius: 10px;
   background-color: white;
@@ -155,8 +156,8 @@ main .sign-in-formality .btn-primary {
   margin-bottom: 20px;
 }
 main .sign-in-formality .btn-primary:hover {
-  font-size: 1rem;
-  padding: 10px 10px;
+  font-size: 1.5rem;
+  padding: 10px 15px;
   border: 2px solid black;
   border-radius: 10px;
   background-color: gray;
@@ -165,7 +166,7 @@ main .sign-in-formality .btn-primary:hover {
   transition: all 2s ease-in-out 0.1s;
 }
 
-/* sign-in section end */
+/* main section end */
 /* main section end  */
 /* media query started  */
 /* media query for mobile or small device started  */
@@ -205,6 +206,54 @@ main .sign-in-formality .btn-primary:hover {
   }
   header nav .nav-logo-icon {
     justify-content: center;
+  }
+  .sign-in-formality {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality .sign-in-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality label {
+    margin: 10px;
+  }
+  .sign-in-formality label input {
+    padding: 10px 20px;
+  }
+  .sign-in-formality .optional-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-in-formality .optional-part p {
+    text-align: center;
+    color: #C3B212;
+  }
+  .sign-in-formality .btn-primary {
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .sign-in-formality .btn-primary:hover {
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
   }
 }
 /* media query for tablet or medium device started*/
