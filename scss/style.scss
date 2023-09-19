@@ -186,13 +186,14 @@ main {
         align-items: center;
         gap: 40px;
         background-color: #F4F4F4;
-
+        border-radius: 10px;
         .service-name {
             display: flex;
             flex-direction: column;
             padding: 8px;
             align-items: center;
             gap: 35px;
+            color: skyblue;
 
             i {
                 padding: 10px 10px;
@@ -749,7 +750,7 @@ main {
 
             img {
                 width: 100%;
-                height: 450px;
+                height: 600px;
             }
 
             .hero-content {
@@ -1307,7 +1308,7 @@ main {
                 align-items: center;
                 flex-direction: column;
                 justify-content: center;
-
+                padding-left: 50px;
 
                 h1 {
                     text-align: center;
@@ -1442,6 +1443,105 @@ main {
                         font-size: 1rem;
                         font-weight: 500;
 
+                    }
+                }
+            }
+        }
+
+        .last-blog-post {
+
+            h1 {
+                margin-bottom: 50px;
+                font-family: Prosto One;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+    
+            .last-blog-post-container {
+                .last-blog-post-container-1 {
+                    display: flex;
+                    .last-blog-post-container-1-content-1 {
+                        img {
+                            width: 100%;
+                            border-radius: 10px;
+                        }
+                    }
+    
+                    .last-blog-post-container-1-content-2 {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding: 100px;
+                        width: 50%;
+                        .btn-primary {
+                            font-size: 1.2rem;
+                            padding: 10px 25px;
+                            border: 2px solid black;
+                            border-radius: 10px;
+                            background-color: white;
+                            color: black;
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+    
+                        .btn-primary:hover {
+                            font-size: 1.5rem;
+                            padding: 10px 25px;
+                            border: 2px solid black;
+                            border-radius: 10px;
+                            text-align: center;
+                            background-color: gray;
+                            color: white;
+                            font-weight: 700;
+                            transition: all 2s ease-in-out 0.1s;
+                        }
+                    }
+                }
+    
+                .last-blog-post-container-2 {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    .last-blog-post-container-2-content-1 {
+                        img {
+                            width: 100%;
+                            border-radius: 10px;
+                        }
+                    }
+    
+                    .last-blog-post-container-2-content-2 {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding: 100px;
+                        width: 50%;
+                        .btn-primary {
+                            font-size: 1.2rem;
+                            padding: 10px 25px;
+                            border: 2px solid black;
+                            border-radius: 10px;
+                            background-color: white;
+                            color: black;
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+    
+                        .btn-primary:hover {
+                            font-size: 1.5rem;
+                            padding: 10px 25px;
+                            border: 2px solid black;
+                            border-radius: 10px;
+                            background-color: gray;
+                            text-align: center;
+                            color: white;
+                            font-weight: 700;
+                            transition: all 2s ease-in-out 0.1s;
+                        }
                     }
                 }
             }
