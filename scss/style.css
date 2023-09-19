@@ -242,12 +242,21 @@ main .our-collection .our-card-collection .card-content h3 {
   font-size: 1rem;
   font-weight: 500;
 }
+main .last-blog-post {
+  background-color: #F4F4F4;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
 main .last-blog-post h1 {
+  margin-bottom: 50px;
   font-family: Prosto One;
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
   text-transform: capitalize;
+  background-color: #f0dfdf;
+  padding: 10px;
+  border-radius: 10px;
 }
 main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-1 img {
   width: 100%;

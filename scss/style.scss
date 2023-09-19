@@ -296,14 +296,19 @@ main {
 
     /* last-blog-post section start */
     .last-blog-post {
-
+        background-color: #F4F4F4;
+        padding: 20px 10px;
+        border-radius: 10px;
         h1 {
-
+            margin-bottom:50px ;
             font-family: Prosto One;
             text-align: center;
             font-size: 2rem;
             font-weight: 900;
             text-transform: capitalize;
+            background-color: #f0dfdf;
+            padding: 10px;
+            border-radius: 10px;
         }
 
         .last-blog-post-container {
