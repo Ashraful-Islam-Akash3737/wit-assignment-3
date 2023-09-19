@@ -88,6 +88,13 @@ header nav .nav-logo-icon i:hover {
 main {
   padding: 30px 35px;
   /* hero section start  */
+  /* hero section end  */
+  /* our-service section start */
+  /* our-service section end */
+  /* our-collections section start  */
+  /* our-collections section end  */
+  /* last-blog-post section start */
+  /* last-blog-post section end */
 }
 main .hero-container {
   display: flex;
@@ -95,36 +102,32 @@ main .hero-container {
 main .hero-container img {
   width: 100%;
   border-radius: 10px;
-  display: flex;
-  flex-grow: 2%;
 }
 main img:hover {
   width: 100%;
   border-radius: 10px;
-  display: flex;
-  flex-grow: 2%;
 }
-main .hero-content {
+main img:hover .hero-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   padding-left: 80px;
 }
-main .hero-content h1 {
+main img:hover .hero-content h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
 }
-main .hero-content h1:hover {
+main img:hover .hero-content h1:hover {
   text-transform: capitalize;
   transition: all 3s ease-in-out 0.1s;
 }
-main p {
+main img:hover p {
   font-size: 1.3rem;
   font-weight: 500;
 }
-main .btn-primary {
+main img:hover .btn-primary {
   font-size: 2rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -134,7 +137,7 @@ main .btn-primary {
   font-weight: 700;
   text-transform: capitalize;
 }
-main .btn-primary:hover {
+main img:hover .btn-primary:hover {
   font-size: 2rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -144,10 +147,7 @@ main .btn-primary:hover {
   font-weight: 700;
   transition: all 2s ease-in-out 0.1s;
 }
-
-/* hero section end  */
-/* our-service section start */
-.our-service {
+main .our-service {
   margin-top: 30px;
   display: inline-flex;
   padding: 30px 30px;
@@ -156,23 +156,23 @@ main .btn-primary:hover {
   gap: 40px;
   background-color: #F4F4F4;
 }
-.our-service .service-name {
+main .our-service .service-name {
   display: flex;
   flex-direction: column;
   padding: 8px;
   align-items: center;
   gap: 35px;
 }
-.our-service .service-name i {
+main .our-service .service-name i {
   padding: 10px 10px;
 }
-.our-service .service-name i:hover {
+main .our-service .service-name i:hover {
   color: white;
   background-color: black;
   border-radius: 8px;
   transition: all 2s ease-in-out 0.1s;
 }
-.our-service .btn-primary {
+main .our-service .btn-primary {
   font-size: 1.2rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -182,7 +182,7 @@ main .btn-primary:hover {
   font-weight: 700;
   text-transform: uppercase;
 }
-.our-service .btn-primary:hover {
+main .our-service .btn-primary:hover {
   font-size: 1.5rem;
   padding: 10px 25px;
   border: 2px solid black;
@@ -192,34 +192,32 @@ main .btn-primary:hover {
   font-weight: 700;
   transition: all 2s ease-in-out 0.1s;
 }
-
-/* our-service section end */
-/* our-collections section start  */
-.our-collection {
+main .our-collection {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.our-collection h1 {
+main .our-collection h1 {
+  font-family: Prosto One;
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
   text-transform: capitalize;
 }
-.our-collection .our-card-collection {
+main .our-collection .our-card-collection {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.our-collection .our-card-collection .card-collection {
+main .our-collection .our-card-collection .card-collection {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.our-collection .our-card-collection .card-content {
+main .our-collection .our-card-collection .card-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,18 +227,89 @@ main .btn-primary:hover {
   padding-left: 5px;
   margin-bottom: 20px;
 }
-.our-collection .our-card-collection .card-content img {
+main .our-collection .our-card-collection .card-content img {
   width: 360px;
   height: 360px;
   border-radius: 10px;
 }
-.our-collection .our-card-collection .card-content h3 {
+main .our-collection .our-card-collection .card-content h3 {
   text-transform: uppercase;
   color: #282828;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Prosto One;
   font-size: 1rem;
   font-weight: 500;
+}
+main .last-blog-post h1 {
+  font-family: Prosto One;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-1 img {
+  width: 100%;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-1 img {
+  width: 100%;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
 }
 
 /* media query started  */
@@ -250,6 +319,7 @@ main .btn-primary:hover {
     padding: 20px 5px;
   }
   header nav {
+    display: f;
     flex-direction: column;
   }
   header nav .nav-logo-container {
@@ -278,7 +348,7 @@ main .btn-primary:hover {
     margin-bottom: 0px;
     margin-right: 0px;
   }
-  header .nav-logo-icon {
+  header nav .nav-logo-icon {
     justify-content: center;
   }
   main .hero-container {
@@ -400,6 +470,79 @@ main .btn-primary:hover {
     font-family: Montserrat;
     font-size: 1rem;
     font-weight: 500;
+  }
+  main .last-blog-post h1 {
+    font-family: Prosto One;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
   }
 }
 /* media query for tablet or medium device started*/
@@ -551,6 +694,79 @@ main .btn-primary:hover {
     font-size: 1rem;
     font-weight: 500;
   }
+  main .last-blog-post h1 {
+    font-family: Prosto One;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* media query for large device started*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
@@ -699,9 +915,92 @@ main .btn-primary:hover {
     font-size: 1rem;
     font-weight: 500;
   }
+  main .last-blog-post h1 {
+    margin-bottom: 50px;
+    font-family: Prosto One;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 {
+    display: flex;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* media query for extra large device started*/
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
   nav {
     justify-content: space-evenly;
   }
