@@ -116,9 +116,11 @@ main {
   padding: 20px 10px;
   /* sign-in section start  */
   /* sign-in section end */
+  /* new-user-formality section start*/
+  /* new-user-formality section end */
 }
 main .sign-in-formality {
-  background-color: antiquewhite;
+  background-color: #F4F4F4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,7 +169,6 @@ main .sign-in-formality .btn-primary:hover {
 }
 
 /* main section end */
-/* main section end  */
 /* media query started  */
 /* media query for mobile or small device started  */
 @media screen and (max-width: 576px) {
@@ -208,7 +209,7 @@ main .sign-in-formality .btn-primary:hover {
     justify-content: center;
   }
   .sign-in-formality {
-    background-color: antiquewhite;
+    background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,6 +287,54 @@ main .sign-in-formality .btn-primary:hover {
   header nav .nav-logo-icon {
     justify-content: center;
   }
+  .sign-in-formality {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality .sign-in-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality label {
+    margin: 20px;
+  }
+  .sign-in-formality label input {
+    padding: 20px 40px;
+  }
+  .sign-in-formality .optional-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-in-formality .optional-part p {
+    text-align: center;
+    color: #C3B212;
+  }
+  .sign-in-formality .btn-primary {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .sign-in-formality .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* media query for large device started*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
@@ -303,6 +352,54 @@ main .sign-in-formality .btn-primary:hover {
   nav ul li a {
     font-size: 1.5rem;
   }
+  .sign-in-formality {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality .sign-in-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality label {
+    margin: 20px;
+  }
+  .sign-in-formality label input {
+    padding: 20px 40px;
+  }
+  .sign-in-formality .optional-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-in-formality .optional-part p {
+    text-align: center;
+    color: #C3B212;
+  }
+  .sign-in-formality .btn-primary {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .sign-in-formality .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* media query for extra large device started*/
 @media screen and (min-width: 1400px) {
@@ -319,5 +416,53 @@ main .sign-in-formality .btn-primary:hover {
   }
   nav ul li a {
     font-size: 1.5rem;
+  }
+  .sign-in-formality {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality .sign-in-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-formality label {
+    margin: 20px;
+  }
+  .sign-in-formality label input {
+    padding: 20px 40px;
+  }
+  .sign-in-formality .optional-part {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-in-formality .optional-part p {
+    text-align: center;
+    color: #C3B212;
+  }
+  .sign-in-formality .btn-primary {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .sign-in-formality .btn-primary:hover {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out 0.1s;
   }
 }/*# sourceMappingURL=account.css.map */
