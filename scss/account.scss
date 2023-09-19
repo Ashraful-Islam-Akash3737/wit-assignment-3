@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+/* header section started   */
+header {
+    background-color: white;
+    padding: 30px 30px;
+
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px double black;
+        border-bottom: 2px dotted black;
+
+        .nav-logo-container {
+            display: flex;
+
+            h1 {
+                font-size: 3rem;
+                font-weight: 700;
+                color: #131313;
+            }
+
+
+        }
+
+        ul {
+
+            display: flex;
+            align-items: center;
+
+            li {
+                list-style-type: none;
+                margin-right: 30px;
+                font-weight: 500;
+                font-size: 1rem;
+
+                a {
+                    text-decoration: none;
+                    font-size: 1rem;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid black;
+                    border-top: 1px solid black;
+                    padding: 10px 5px;
+                    border-radius: 8px;
+                    color: #000;
+                }
+
+                .home {
+                    text-decoration: none;
+                    font-size: 1rem;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid black;
+                    border-top: 1px solid white;
+                    padding: 10px 5px;
+                    border-radius: 8px;
+                    color: black;
+                    background-color: white;
+                }
+
+
+
+                a:hover {
+                    text-decoration: none;
+                    font-size: 1rem;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid black;
+                    padding: 10px 5px;
+                    border-radius: 8px;
+                    color: white;
+                    background-color: #000;
+                    transition: all 2s ease-in-out 0.1s;
+                }
+            }
+        }
+
+        .nav-logo-icon {
+            display: flex;
+            align-items: center;
+            padding: 20px 0px;
+
+            .btn-primary {
+                font-size: 1rem;
+                padding: 10px 15px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+                font-weight: 700;
+                text-transform: capitalize;
+                padding-right: 15px;
+                margin-right: 40px;
+            }
+
+            .btn-primary:hover {
+                font-size: 1rem;
+                padding: 10px 15px;
+                border: 2px solid black;
+                border-radius: 30px;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+                padding-right: 15px;
+            }
+
+            i {
+                font-size: 2rem;
+                padding: 5px 20px;
+            }
+
+            i:hover {
+                color: white;
+                background-color: black;
+                border-radius: 8px;
+                transition: all 2s ease-in-out 0.1s;
+            }
+        }
+
+
+
+    }
+}
+
+/* header section ended  */
