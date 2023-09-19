@@ -365,6 +365,7 @@ footer .footer-container .footer-container-1 {
 }
 footer .footer-container .footer-container-1 h1 {
   text-align: center;
+  border-bottom: 2px dashed black;
 }
 footer .footer-container .footer-container-1 p {
   text-align: center;
@@ -376,6 +377,7 @@ footer .footer-container .footer-container-2 {
 }
 footer .footer-container .footer-container-2 h1 {
   text-align: center;
+  border-bottom: 2px dashed black;
 }
 footer .footer-container .footer-container-2 p {
   text-align: center;
@@ -387,6 +389,7 @@ footer .footer-container .footer-container-3 {
 }
 footer .footer-container .footer-container-3 h1 {
   text-align: center;
+  border-bottom: 2px dashed black;
 }
 footer .footer-container .footer-container-3 p {
   text-align: center;
@@ -398,6 +401,7 @@ footer .footer-container .footer-container-4 {
 }
 footer .footer-container .footer-container-4 h1 {
   text-align: center;
+  border-bottom: 2px dashed black;
 }
 footer .footer-container .footer-container-4 p {
   text-align: center;
@@ -661,6 +665,60 @@ footer .footer-container .footer-container-4 p {
     font-weight: 700;
     transition: all 2s ease-in-out 0.1s;
   }
+  footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px;
+  }
+  footer .footer-container .footer-container-1 {
+    border: 2px solid black;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-1 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-1 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-2 {
+    border: 2px solid black;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-2 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-2 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-3 {
+    border: 2px solid black;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-3 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-3 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-4 {
+    border: 2px solid black;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-4 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-4 p {
+    text-align: center;
+  }
 }
 /* media query for tablet or medium device started*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -914,6 +972,62 @@ footer .footer-container .footer-container-4 p {
     color: white;
     font-weight: 700;
     transition: all 2s ease-in-out 0.1s;
+  }
+  footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-1 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-1 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-1 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-2 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-2 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-2 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-3 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-3 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-3 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-4 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-4 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-4 p {
+    text-align: center;
   }
 }
 /* media query for large device started*/
@@ -1189,6 +1303,62 @@ footer .footer-container .footer-container-4 p {
     font-weight: 700;
     transition: all 2s ease-in-out 0.1s;
   }
+  footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-1 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-1 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-1 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-2 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-2 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-2 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-3 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-3 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-3 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-4 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-4 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-4 p {
+    text-align: center;
+  }
 }
 /* media query for extra large device started*/
 @media screen and (min-width: 1400px) {
@@ -1463,5 +1633,61 @@ footer .footer-container .footer-container-4 p {
     color: white;
     font-weight: 700;
     transition: all 2s ease-in-out 0.1s;
+  }
+  footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-1 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-1 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-1 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-2 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-2 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-2 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-3 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-3 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-3 p {
+    text-align: center;
+  }
+  footer .footer-container .footer-container-4 {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  footer .footer-container .footer-container-4 h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+  }
+  footer .footer-container .footer-container-4 p {
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
