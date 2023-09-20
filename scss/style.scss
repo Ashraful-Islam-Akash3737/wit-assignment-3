@@ -49,6 +49,7 @@ header {
                     padding: 10px 5px;
                     border-radius: 8px;
                     color: #000;
+                    cursor: pointer;
                 }
 
                 .home {
@@ -97,9 +98,11 @@ header {
                 text-transform: capitalize;
                 padding-right: 15px;
                 margin-right: 40px;
+                
                 a{
                     color: white;
                     text-decoration: none;
+                    
                 }
             }
 
@@ -147,6 +150,7 @@ main {
         img {
             width: 100%;
             border-radius: 10px;
+            height: 500px;
         }
     }
 
@@ -306,7 +310,15 @@ main {
                     width: 360px;
                     height: 360px;
                     border-radius: 10px;
+                   
                 }
+                img:hover {
+                    width: 360px;
+                    height: 360px;
+                    border-radius: 50%;
+                    
+                }
+                
 
                 h3 {
                     text-transform: uppercase;
@@ -346,6 +358,7 @@ main {
                 .last-blog-post-container-1-content-1 {
                     img {
                         width: 100%;
+                        height: 500px;
                     }
                 }
 
@@ -387,6 +400,7 @@ main {
                 .last-blog-post-container-2-content-1 {
                     img {
                         width: 100%;
+                        height: 500px;
                     }
                 }
 
@@ -432,6 +446,7 @@ main {
     .wholesalers-container {
         img {
             width: 100%;
+            height: 500px;
             border-radius: 10px;
         }
 
@@ -471,12 +486,14 @@ main {
 /*footer section start*/
 footer {
     .footer-container {
+        
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         background-color: rgb(228, 225, 225);
 
         .footer-container-1 {
+            
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
@@ -1158,7 +1175,7 @@ footer {
         .last-blog-post {
 
             h1 {
-
+                padding: 10px 20px;
                 font-family: Prosto One;
                 text-align: center;
                 font-size: 2rem;
@@ -1556,6 +1573,7 @@ footer {
         .last-blog-post {
 
             h1 {
+                padding: 15px 50px;
                 margin-bottom: 50px;
                 font-family: Prosto One;
                 text-align: center;
@@ -1972,6 +1990,7 @@ footer {
         .last-blog-post {
 
             h1 {
+                padding: 15px 50px;
                 margin-bottom: 50px;
                 font-family: Prosto One;
                 text-align: center;

@@ -85,6 +85,7 @@ header {
             display: flex;
             align-items: center;
             padding: 20px 0px;
+
             .btn-primary {
                 font-size: 1rem;
                 padding: 10px 15px;
@@ -96,7 +97,8 @@ header {
                 text-transform: capitalize;
                 padding-right: 15px;
                 margin-right: 40px;
-                a{
+
+                a {
                     color: white;
                     text-decoration: none;
                 }
@@ -142,7 +144,9 @@ main {
     /* hero section start  */
     .hero-img {
 
+
         img {
+
             width: 100%;
             border-radius: 10px;
         }
@@ -167,10 +171,11 @@ main {
             margin: 50px 20px;
             padding: 10px 20px;
             border-radius: 10px;
-            background-color:  #e5e2e2;
+            background-color: #e5e2e2;
             border: 2px solid black;
         }
-        h1:hover{
+
+        h1:hover {
             font-family: Prosto One;
             text-align: center;
             font-size: 2rem;
@@ -179,8 +184,8 @@ main {
             margin: 50px 20px;
             padding: 10px 20px;
             border-radius: 10px;
-            color:white;
-            background-color:  black;
+            color: white;
+            background-color: black;
             border: 2px solid black;
             transition: all 2s ease-in-out 0s;
         }
@@ -222,88 +227,97 @@ main {
     }
 
     /* our-collections section end  */
-}
-
-/* main section end  */
 
 
-/*footer section start*/
-footer {
-    .footer-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 20px;
-        background-color: rgb(230, 223, 223);
-        .footer-container-1 {
-            border: 2px solid black;
-            padding: 5px;
-            border-radius: 10px;
-            background-color: white;
-            h1{
-                text-align: center;
-                border-bottom: 2px dashed black; 
-            }
-            p {
-                text-align: center;
-            }
+    /* main section end  */
 
-            .footer-container-content {}
-        }
 
-        .footer-container-2 {
-            border: 2px solid black;
-            padding: 5px;
-            border-radius: 10px;
-            background-color: white;
-            h1{
-                text-align: center;
-                border-bottom: 2px dashed black;
-            }
-            p {
-                text-align: center;
+    /*footer section start*/
+    footer {
+        .footer-container {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            background-color: rgb(230, 223, 223);
+
+            .footer-container-1 {
+
+                border: 2px solid black;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: white;
+
+                h1 {
+                    text-align: center;
+                    border-bottom: 2px dashed black;
+                }
+
+                p {
+                    text-align: center;
+                }
+
+                .footer-container-content {}
             }
 
-            .footer-container-content {}
-        }
+            .footer-container-2 {
+                border: 2px solid black;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: white;
 
-        .footer-container-3 {
-            border: 2px solid black;
-            padding: 5px;
-            border-radius: 10px;
-            background-color: white;
-            h1{
-                text-align: center;
-                border-bottom: 2px dashed black; 
-            }
-            p {
-                text-align: center;
-            }
+                h1 {
+                    text-align: center;
+                    border-bottom: 2px dashed black;
+                }
 
-            .footer-container-content {}
-        }
+                p {
+                    text-align: center;
+                }
 
-        .footer-container-4{
-            border: 2px solid black;
-            padding: 5px;
-            border-radius: 10px;
-            background-color: white;
-            h1{
-                text-align: center;
-                border-bottom: 2px dashed black;
-                 
-            }
-            p {
-                text-align: center;
+                .footer-container-content {}
             }
 
-            .footer-container-content {}
+            .footer-container-3 {
+                border: 2px solid black;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: white;
+
+                h1 {
+                    text-align: center;
+                    border-bottom: 2px dashed black;
+                }
+
+                p {
+                    text-align: center;
+                }
+
+                .footer-container-content {}
+            }
+
+            .footer-container-4 {
+                border: 2px solid black;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: white;
+
+                h1 {
+                    text-align: center;
+                    border-bottom: 2px dashed black;
+
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
         }
     }
+
+    /*footer section end*/
 }
-
-/*footer section end*/
-
-
 
 
 

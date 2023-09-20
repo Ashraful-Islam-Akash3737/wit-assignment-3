@@ -49,6 +49,7 @@ header {
                     padding: 10px 5px;
                     border-radius: 8px;
                     color: #000;
+                    cursor: pointer;
                 }
 
                 .home {
@@ -147,7 +148,9 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        margin: 50px auto;
+        border-top: 2px double black;
+        border-bottom: 2px double black;
         .sign-in-part {
             display: inline-flex;
             flex-direction: column;
@@ -214,7 +217,8 @@ main {
         text-align: center;
         background-color: #F4F4F4;
         border-top: 2px double black;
-
+        border-bottom: 2px double black;
+        margin: 100px auto;
         .new-user-part {
             .new-user-part-header {
                 h5 {
@@ -269,7 +273,8 @@ main {
         text-align: center;
         background-color: #F4F4F4;
         border-top: 2px double black;
-
+        border-bottom: 2px double black;
+        margin-bottom: 100px ;
         .guest-user-part {
             h5 {
                 text-align: start;
@@ -313,12 +318,14 @@ main {
 /*footer section start*/
 footer {
     .footer-container {
+        
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         background-color: rgb(228, 225, 225);
 
         .footer-container-1 {
+            
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
@@ -516,6 +523,7 @@ footer {
 
     footer {
         .footer-container {
+            
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;

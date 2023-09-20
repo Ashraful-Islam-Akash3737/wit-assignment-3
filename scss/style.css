@@ -42,6 +42,7 @@ header nav ul li a {
   padding: 10px 5px;
   border-radius: 8px;
   color: #000;
+  cursor: pointer;
 }
 header nav ul li .home {
   text-decoration: none;
@@ -131,6 +132,7 @@ main .hero-container {
 main .hero-container img {
   width: 100%;
   border-radius: 10px;
+  height: 500px;
 }
 main img:hover {
   width: 100%;
@@ -263,6 +265,11 @@ main .our-collection .our-card-collection .card-content img {
   height: 360px;
   border-radius: 10px;
 }
+main .our-collection .our-card-collection .card-content img:hover {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+}
 main .our-collection .our-card-collection .card-content h3 {
   text-transform: uppercase;
   color: #282828;
@@ -289,6 +296,7 @@ main .last-blog-post h1 {
 }
 main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-1 img {
   width: 100%;
+  height: 500px;
 }
 main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last-blog-post-container-1-content-2 {
   display: flex;
@@ -321,6 +329,7 @@ main .last-blog-post .last-blog-post-container .last-blog-post-container-1 .last
 }
 main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-1 img {
   width: 100%;
+  height: 500px;
 }
 main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last-blog-post-container-2-content-2 {
   display: flex;
@@ -353,6 +362,7 @@ main .last-blog-post .last-blog-post-container .last-blog-post-container-2 .last
 }
 main .wholesalers-container img {
   width: 100%;
+  height: 500px;
   border-radius: 10px;
 }
 main .wholesalers-container .wholesalers-content .btn-primary {
@@ -902,6 +912,7 @@ footer .footer-container .footer-container-4 p {
     font-weight: 500;
   }
   main .last-blog-post h1 {
+    padding: 10px 20px;
     font-family: Prosto One;
     text-align: center;
     font-size: 2rem;
@@ -1210,6 +1221,7 @@ footer .footer-container .footer-container-4 p {
     font-weight: 500;
   }
   main .last-blog-post h1 {
+    padding: 15px 50px;
     margin-bottom: 50px;
     font-family: Prosto One;
     text-align: center;
@@ -1541,6 +1553,7 @@ footer .footer-container .footer-container-4 p {
     font-weight: 500;
   }
   main .last-blog-post h1 {
+    padding: 15px 50px;
     margin-bottom: 50px;
     font-family: Prosto One;
     text-align: center;
