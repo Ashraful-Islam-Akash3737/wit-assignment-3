@@ -1,3 +1,225 @@
 * {
   padding: 0px;
+  font-family: Montserrat;
+}
+
+/* header section started   */
+header {
+  background-color: white;
+  padding: 30px 30px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px double black;
+  border-bottom: 2px dotted black;
+}
+header nav .nav-logo-container {
+  display: flex;
+}
+header nav .nav-logo-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  list-style-type: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 10px 5px;
+  border-radius: 8px;
+  color: #000;
+  cursor: pointer;
+}
+header nav ul li .home {
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid white;
+  padding: 10px 5px;
+  border-radius: 8px;
+  color: black;
+  background-color: white;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  padding: 10px 5px;
+  border-radius: 8px;
+  color: white;
+  background-color: #000;
+  transition: all 2s ease-in-out 0.1s;
+}
+header nav .nav-logo-icon {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+header nav .nav-logo-icon .btn-primary {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-right: 15px;
+  margin-right: 40px;
+}
+header nav .nav-logo-icon .btn-primary a {
+  color: white;
+  text-decoration: none;
+}
+header nav .nav-logo-icon .btn-primary:hover {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+  transition: all 2s ease-in-out 0.1s;
+  padding-right: 15px;
+}
+header nav .nav-logo-icon i {
+  font-size: 2rem;
+  padding: 5px 20px;
+}
+header nav .nav-logo-icon i:hover {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  transition: all 2s ease-in-out 0.1s;
+}
+
+/* header section ended  */
+/* media query started  */
+/* media query for mobile or small device started  */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px 5px;
+  }
+  header nav {
+    display: f;
+    flex-direction: column;
+  }
+  header nav .nav-logo-container {
+    justify-content: center;
+    align-items: center;
+  }
+  header nav ul {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header nav ul li {
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  header nav ul li a {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  header nav ul li .home {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  header nav ul li a:hover {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  header nav .nav-logo-icon {
+    justify-content: center;
+  }
+  header nav .nav-logo-icon .btn-primary1 {
+    display: none;
+  }
+  header nav .nav-logo-icon .btn-primary1:hover {
+    display: none;
+  }
+}
+/* media query for tablet or medium device started*/
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    padding: 20px 10px;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header nav .nav-logo-container {
+    justify-content: center;
+    align-items: center;
+  }
+  header nav ul {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header nav ul li {
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  header nav ul li a {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-size: 1.2rem;
+  }
+  header nav .nav-logo-icon {
+    justify-content: center;
+  }
+}
+/* media query for large device started*/
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  nav {
+    justify-content: space-evenly;
+  }
+  nav ul {
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav ul li {
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li a {
+    font-size: 1.5rem;
+  }
+}
+/* media query for extra large device started*/
+@media screen and (min-width: 1400px) {
+  nav {
+    justify-content: space-evenly;
+  }
+  nav ul {
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav ul li {
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li a {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=product.css.map */
