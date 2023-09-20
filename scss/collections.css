@@ -284,6 +284,12 @@ main footer .footer-container .footer-container-4 p {
   header nav .nav-logo-icon {
     justify-content: center;
   }
+  header nav .nav-logo-icon .btn-primary1 {
+    display: none;
+  }
+  header nav .nav-logo-icon .btn-primary1:hover {
+    display: none;
+  }
   main {
     padding: 0px 20px;
   }

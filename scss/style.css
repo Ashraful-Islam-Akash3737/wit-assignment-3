@@ -269,6 +269,7 @@ main .our-collection .our-card-collection .card-content img:hover {
   width: 360px;
   height: 360px;
   border-radius: 50%;
+  transition: all 2s ease-in-out 0.1s;
 }
 main .our-collection .our-card-collection .card-content h3 {
   text-transform: uppercase;
@@ -487,6 +488,12 @@ footer .footer-container .footer-container-4 p {
   }
   header nav .nav-logo-icon {
     justify-content: center;
+  }
+  header nav .nav-logo-icon .btn-primary1 {
+    display: none;
+  }
+  header nav .nav-logo-icon .btn-primary1:hover {
+    display: none;
   }
   main .hero-container {
     flex-direction: column;
