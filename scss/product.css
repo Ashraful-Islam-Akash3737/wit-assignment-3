@@ -508,7 +508,7 @@ footer .footer-container .footer-container-4 p {
   footer .footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
+    gap: 10px;
     padding: 0px;
   }
   footer .footer-container .footer-container-1 {
@@ -593,7 +593,7 @@ footer .footer-container .footer-container-4 p {
   footer .footer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 15px;
     border: 2px solid black;
     padding: 10px;
     border-radius: 10px;
