@@ -508,7 +508,7 @@ footer .footer-container .footer-container-4 p {
   footer .footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 0px;
     padding: 0px;
   }
   footer .footer-container .footer-container-1 {
