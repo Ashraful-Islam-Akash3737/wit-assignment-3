@@ -1443,7 +1443,7 @@ footer .footer-container .footer-container-4 p {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
+    margin-left: 100px;
   }
   main .hero-container .hero-content h1 {
     text-align: center;

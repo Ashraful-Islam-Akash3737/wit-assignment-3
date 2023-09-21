@@ -139,6 +139,8 @@ header {
 /* header section end  */
 
 
+
+
 /* main section start  */
 main{
     height: 600px;
@@ -168,27 +170,32 @@ main{
             background-image: url("/slider-1.webp");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
            }
            25%{
             background-image: url("/slider-3.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
            }
            50%{
             background-image: url("/slider-4.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
            } 
             
            75%{
             background-image: url("/slider-6.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
            } 
            100%{
             background-image: url("/slider-5.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
            }           
 
         }
@@ -286,6 +293,14 @@ main{
     }
 
 
+}
+
+.big-sale{
+    width: 100%;
+    img{
+        width: 100%;
+        
+    }
 }
 
 .our-collection {
@@ -522,7 +537,7 @@ footer {
     }
 
     main{
-        height: 600px;
+        height: 400px;
         width: 100%;
         background-image: url("/slider-2.jpg");
         background-size: cover;
@@ -548,28 +563,38 @@ footer {
                0%{
                 background-image: url("/slider-1.webp");
                 background-repeat: no-repeat;
-                background-size: cover;
+                background-size: contain;
+                background-position: center;
+                border-radius: 10px;
                }
                25%{
                 background-image: url("/slider-3.jpg");
                 background-repeat: no-repeat;
-                background-size: cover;
+                background-size: contain;
+                background-position: center;
+                border-radius: 10px;
                }
                50%{
                 background-image: url("/slider-4.jpg");
                 background-repeat: no-repeat;
-                background-size: cover;
+                background-size: contain;
+                background-position: center;
+                border-radius: 10px;
                } 
                 
                75%{
                 background-image: url("/slider-6.jpg");
                 background-repeat: no-repeat;
-                background-size: cover;
+                background-size: contain;
+                background-position: center;
+                border-radius: 10px;
                } 
                100%{
                 background-image: url("/slider-5.jpg");
                 background-repeat: no-repeat;
-                background-size: cover;
+                background-size: contain;
+                background-position: center;
+                border-radius: 10px;
                }           
     
             }

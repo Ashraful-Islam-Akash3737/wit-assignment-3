@@ -141,26 +141,31 @@ main .main-slider .slider {
     background-image: url("/slider-1.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   25% {
     background-image: url("/slider-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   50% {
     background-image: url("/slider-4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   75% {
     background-image: url("/slider-6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   100% {
     background-image: url("/slider-5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 main .info {
@@ -244,6 +249,13 @@ main .info p {
   font-family: Prosto One;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.big-sale {
+  width: 100%;
+}
+.big-sale img {
+  width: 100%;
 }
 
 .our-collection {
@@ -420,7 +432,7 @@ footer .footer-container .footer-container-4 p {
     display: none;
   }
   main {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background-image: url("/slider-2.jpg");
     background-size: cover;
@@ -446,27 +458,37 @@ footer .footer-container .footer-container-4 p {
     0% {
       background-image: url("/slider-1.webp");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
+      background-position: center;
+      border-radius: 10px;
     }
     25% {
       background-image: url("/slider-3.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
+      background-position: center;
+      border-radius: 10px;
     }
     50% {
       background-image: url("/slider-4.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
+      background-position: center;
+      border-radius: 10px;
     }
     75% {
       background-image: url("/slider-6.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
+      background-position: center;
+      border-radius: 10px;
     }
     100% {
       background-image: url("/slider-5.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
+      background-position: center;
+      border-radius: 10px;
     }
   }
   main .info {
