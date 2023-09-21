@@ -184,6 +184,75 @@ main .info p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #f4f4f4;
+  margin-bottom: 100px;
+}
+.our-collection h1 {
+  font-family: Prosto One;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 50px 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #e5e2e2;
+  background-color: black;
+  border: 2px solid black;
+}
+.our-collection h1:hover {
+  font-family: Prosto One;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 50px 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  background-color: #e5e2e2;
+  border: 2px solid black;
+  transition: all 2s ease-in-out 0s;
+}
+.our-collection .card-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.our-collection .card-collection .card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 20px 0px;
+}
+.our-collection .card-collection .card-content a {
+  text-decoration: none;
+  color: white;
+}
+.our-collection .card-collection .card-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+.our-collection .card-collection .card-content h4 {
+  text-transform: uppercase;
+  color: #282828;
+  text-align: center;
+  font-family: Prosto One;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.our-collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  margin-bottom: 100px;
 }
 .our-collection h1 {
   font-family: Prosto One;
