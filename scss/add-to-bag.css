@@ -567,6 +567,87 @@ footer .footer-container .footer-container-4 p {
     transition: all 2s ease-in-out 0.1s;
     padding-right: 15px;
   }
+  main .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    margin: 70px auto;
+  }
+  main .about .about-steeping {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  main .about .about-steeping h1 {
+    gap: 10px;
+    color: #282828;
+    font-family: Prosto One;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  main .about .about-steeping h4 {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  main .about .about-this-tea {
+    margin: 20px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 10px;
+    padding: 20px;
+    gap: 50px;
+  }
+  main .about .about-this-tea h1 {
+    color: #282828;
+    font-family: Prosto One;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  main .about .about-this-tea .quality {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  main .about .about-this-tea .quality .quality-1 {
+    border-right: 2px solid black;
+  }
+  main .about .about-this-tea .quality .quality-1 h3,
+  main .about .about-this-tea .quality .quality-1 h4 {
+    padding-right: 20px;
+  }
+  main .about .about-this-tea .quality .quality-2 {
+    border-right: none;
+  }
+  main .about .about-this-tea .quality .quality-2 h3,
+  main .about .about-this-tea .quality .quality-2 h4 {
+    padding-right: 20px;
+  }
+  main .about .about-this-tea .quality .quality-3 {
+    border-right: 2px solid black;
+  }
+  main .about .about-this-tea .quality .quality-3 h3,
+  main .about .about-this-tea .quality .quality-3 h4 {
+    padding-right: 20px;
+  }
+  main .about .about-this-tea h1 {
+    color: #282828;
+    font-family: Prosto One;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  main .about .about-this-tea h5 {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+  }
   footer .footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -781,6 +862,87 @@ footer .footer-container .footer-container-4 p {
     font-weight: 700;
     transition: all 2s ease-in-out 0.1s;
     padding-right: 15px;
+  }
+  main .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    margin: 70px auto;
+  }
+  main .about .about-steeping {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 10px;
+    padding: 50px;
+  }
+  main .about .about-steeping h1 {
+    gap: 10px;
+    color: #282828;
+    font-family: Prosto One;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  main .about .about-steeping h4 {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  main .about .about-this-tea {
+    margin: 50px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 10px;
+    padding: 50px;
+    gap: 50px;
+  }
+  main .about .about-this-tea h1 {
+    color: #282828;
+    font-family: Prosto One;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  main .about .about-this-tea .quality {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  main .about .about-this-tea .quality .quality-1 {
+    border-right: 2px solid black;
+  }
+  main .about .about-this-tea .quality .quality-1 h3,
+  main .about .about-this-tea .quality .quality-1 h4 {
+    padding-right: 30px;
+  }
+  main .about .about-this-tea .quality .quality-2 {
+    border-right: none;
+  }
+  main .about .about-this-tea .quality .quality-2 h3,
+  main .about .about-this-tea .quality .quality-2 h4 {
+    padding-right: 30px;
+  }
+  main .about .about-this-tea .quality .quality-3 {
+    border-right: 2px solid black;
+  }
+  main .about .about-this-tea .quality .quality-3 h3,
+  main .about .about-this-tea .quality .quality-3 h4 {
+    padding-right: 30px;
+  }
+  main .about .about-this-tea h1 {
+    color: #282828;
+    font-family: Prosto One;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  main .about .about-this-tea h5 {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
   }
   footer .footer-container {
     display: grid;

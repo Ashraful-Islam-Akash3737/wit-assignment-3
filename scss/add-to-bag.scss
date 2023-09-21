@@ -724,6 +724,103 @@ footer {
                 }
             }
         }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #F4F4F4;
+            border-radius: 10px;
+            margin: 70px auto;
+    
+            .about-steeping {
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                background-color: rgb(235, 232, 232);
+                border-radius: 10px;
+                padding: 20px;
+    
+                h1 {
+                    gap: 10px;
+                    color: #282828;
+                    font-family:  Prosto One;
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+    
+                h4 {
+                    font-family: Montserrat;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+            }
+    
+            .about-this-tea {
+                margin: 20px;
+                background-color: rgb(235, 232, 232);
+                border-radius: 10px;
+                padding: 20px;
+                gap: 50px;
+    
+                h1 {
+                    color: #282828;
+                    font-family: Prosto One;
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+    
+                .quality {
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 50px;
+    
+                    .quality-1 {
+    
+                        border-right: 2px solid black;
+    
+                        h3,
+                        h4 {
+                            padding-right: 20px;
+                        }
+                    }
+    
+                    .quality-2 {
+                        border-right: none;
+    
+                        h3,
+                        h4 {
+                            padding-right: 20px;
+                        }
+                    }
+    
+                    .quality-3 {
+                        border-right: 2px solid black;
+    
+                        h3,
+                        h4 {
+                            padding-right: 20px;
+                        }
+                    }
+                }
+    
+                h1 {
+                    color: #282828;
+                    font-family:  Prosto One;
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+    
+                h5 {
+                    color: #282828;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
     }
 
     footer {
@@ -1003,6 +1100,103 @@ footer {
                         transition: all 2s ease-in-out 0.1s;
                         padding-right: 15px;
                     }
+                }
+            }
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #F4F4F4;
+            border-radius: 10px;
+            margin: 70px auto;
+    
+            .about-steeping {
+                margin: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                background-color: rgb(235, 232, 232);
+                border-radius: 10px;
+                padding: 50px;
+    
+                h1 {
+                    gap: 10px;
+                    color: #282828;
+                    font-family:  Prosto One;
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+    
+                h4 {
+                    font-family: Montserrat;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+            }
+    
+            .about-this-tea {
+                margin: 50px;
+                background-color: rgb(235, 232, 232);
+                border-radius: 10px;
+                padding: 50px;
+                gap: 50px;
+    
+                h1 {
+                    color: #282828;
+                    font-family: Prosto One;
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+    
+                .quality {
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 50px;
+    
+                    .quality-1 {
+    
+                        border-right: 2px solid black;
+    
+                        h3,
+                        h4 {
+                            padding-right: 30px;
+                        }
+                    }
+    
+                    .quality-2 {
+                        border-right: none;
+    
+                        h3,
+                        h4 {
+                            padding-right: 30px;
+                        }
+                    }
+    
+                    .quality-3 {
+                        border-right: 2px solid black;
+    
+                        h3,
+                        h4 {
+                            padding-right: 30px;
+                        }
+                    }
+                }
+    
+                h1 {
+                    color: #282828;
+                    font-family:  Prosto One;
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+    
+                h5 {
+                    color: #282828;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
                 }
             }
         }
