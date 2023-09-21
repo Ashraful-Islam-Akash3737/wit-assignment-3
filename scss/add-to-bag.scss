@@ -404,6 +404,80 @@ main {
         }
     }
 
+    .our-collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        h1 {
+            font-family: Prosto One;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: capitalize;
+            margin: 50px 20px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #e5e2e2;
+            border: 2px solid black;
+        }
+
+        h1:hover {
+            font-family: Prosto One;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: capitalize;
+            margin: 50px 20px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            border: 2px solid black;
+            transition: all 2s ease-in-out 0s;
+        }
+
+        .card-collection {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+
+            .card-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 5px;
+                padding-right: 5px;
+                padding-left: 5px;
+                margin-bottom: 20px;
+               
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+                h4 {
+                    text-transform: uppercase;
+                    color: #282828;
+                    text-align: center;
+                    font-family: Prosto One;
+                    font-size: 1rem;
+                    font-weight: 500;
+
+                }
+            }
+        }
+
+
+    }
+
 }
 
 /* main section end  */
