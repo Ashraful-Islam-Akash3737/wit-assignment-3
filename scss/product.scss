@@ -136,22 +136,92 @@ header {
     }
 }
 
-/* header section ended  */
+/* header section end  */
 
 
+/* main section start  */
+main{
+    height: 600px;
+    width: 100%;
+    background-image: url("/slider-2.jpg");
+    background-size: cover;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .main-slider{
+        height: 400px;
+        width:70%;
+        position: absolute;
+        .slider{
+            height: 400px;
+            width:70vw;
+            border-radius: 10px;
+            animation: slider-animation 10s step-end 3s infinite normal;
+
+            
+        }
+        @keyframes slider-animation {
+           0%{
+            background-image: url("/slider-1.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+           }
+           25%{
+            background-image: url("/slider-3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+           }
+           50%{
+            background-image: url("/slider-4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+           } 
+            
+           75%{
+            background-image: url("/slider-6.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+           } 
+           100%{
+            background-image: url("/slider-5.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+           }           
+
+        }
+    }
+    .info{
+        align-self: last baseline;
+        background-color: adjust-hue($color: #00000058, $degrees: 0);
+        margin-bottom: 0px;
+        padding: 0px;
+        box-shadow: 1px 1px 0.5px white;
+        p{
+            color:white;
+            word-spacing: 2px;
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 5px green;
+            
+        }
+    }
+}
+/* main section end  */
 
 
 /*footer section start*/
 footer {
     .footer-container {
-        
+
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         background-color: rgb(228, 225, 225);
 
         .footer-container-1 {
-            
+
             border: 2px solid black;
             padding: 5px;
             border-radius: 10px;
@@ -295,7 +365,7 @@ footer {
 
     }
 
-    
+
     footer {
         .footer-container {
             display: grid;
