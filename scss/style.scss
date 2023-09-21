@@ -583,13 +583,133 @@ footer {
 
 /* media query started  */
 
+
+/* media query for mobile or small device started  */
+@media screen and (max-width:300px){
+    header {
+        padding: 20px 5px;
+
+        nav {
+            display: flex;
+            flex-direction: column;
+
+            .nav-logo-container {
+                justify-content: center;
+                align-items: center;
+            }
+
+            ul {
+                
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+                li {
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 0px;
+
+                    a {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+
+                    .home {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+
+                    a:hover {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+                }
+
+            }
+
+            .nav-logo-icon {
+                justify-content: center;
+                .btn-primary1 {
+                    display: none;
+                    
+                    
+                }
+    
+                .btn-primary1:hover {
+                    display: none;
+                    
+                }
+            }
+        }
+
+
+
+    }
+
+
+    main{
+        padding: 10px 10px;
+
+        .our-service {
+            margin-top: 30px;
+            display: inline-flex;
+            padding: 20px 0px;
+            flex-direction: column;
+            align-items: center;
+            
+            gap: 40px;
+            background-color: #F4F4F4;
+    
+            .service-name {
+                display: flex;
+                flex-direction: column;
+                padding: 8px;
+                align-items: center;
+                gap: 35px;
+    
+                h3 {
+                    font-size: 1.5rem;
+    
+                    i {
+                        padding-right: 10px;
+                        font-size: 2rem;
+                    }
+                }
+    
+            }
+    
+            .btn-primary {
+                font-size: 1.2rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: white;
+                color: black;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+    
+            .btn-primary:hover {
+                font-size: 1.5rem;
+                padding: 10px 25px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: gray;
+                color: white;
+                font-weight: 700;
+                transition: all 2s ease-in-out 0.1s;
+            }
+        }
+    }
+    
+}
+
 /* media query for mobile or small device started  */
 @media screen and (max-width:576px) {
     header {
         padding: 20px 5px;
 
         nav {
-            display: f;
+            display: flex;
             flex-direction: column;
 
             .nav-logo-container {
@@ -690,7 +810,7 @@ footer {
         .our-service {
             margin-top: 30px;
             display: inline-flex;
-            padding: 20px 20px;
+            padding: 20px 10px;
             flex-direction: column;
             align-items: center;
             gap: 40px;
@@ -927,9 +1047,9 @@ footer {
     footer {
         .footer-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            padding: 0px;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px ;
+            width: 100%;
 
             .footer-container-1 {
                 border: 2px solid black;
@@ -1327,7 +1447,7 @@ footer {
     footer {
         .footer-container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 15px;
             border: 2px solid black;
             padding: 10px;

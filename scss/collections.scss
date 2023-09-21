@@ -329,6 +329,69 @@ main {
 
 /* media query started  */
 
+
+/* media query for mobile or small device started  */
+@media screen and (max-width:300px){
+    header {
+        padding: 20px 5px;
+
+        nav {
+            display: flex;
+            flex-direction: column;
+
+            .nav-logo-container {
+                justify-content: center;
+                align-items: center;
+            }
+
+            ul {
+                
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+                li {
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 0px;
+
+                    a {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+
+                    .home {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+
+                    a:hover {
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                    }
+                }
+
+            }
+
+            .nav-logo-icon {
+                justify-content: center;
+                .btn-primary1 {
+                    display: none;
+                    
+                    
+                }
+    
+                .btn-primary1:hover {
+                    display: none;
+                    
+                }
+            }
+        }
+
+
+
+    }
+}
+
 /* media query for mobile or small device started  */
 @media screen and (max-width:576px) {
     header {
@@ -458,7 +521,7 @@ main {
     footer {
         .footer-container{
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(1,1fr);
             gap: 10px;
             padding: 0px;
             .footer-container-1 {
@@ -636,7 +699,7 @@ main {
     footer {
         .footer-container{
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(2,1fr);
             gap: 15px;
             border: 2px solid black;
             padding: 10px;
